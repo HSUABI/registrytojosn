@@ -1,7 +1,8 @@
 # -*- encoding: utf-8 -*-
+import sys
 from fortools import *
 
-def regtojson():
+def regtojson(path):
 
     #경로지정하면 해당경로밑의 하위키(폴더)를 싹 모아서 리스트로 반환
     def find_subkey(reg, pathlist):
@@ -22,10 +23,10 @@ def regtojson():
     #reg_file1 = RegistryHive.file_open("C:\\regggg\\gullabjamun.USRCLASS.DAT")#\HKEY_CURRENT_USER\SOFTWARE\Classes
 
     #레지스트리하이브파일 경로 설정해주세요꼮 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    reg_file1 = RegistryHive.file_open("C:\\regggg\\NTUSER.DAT")
-    reg_file2 = RegistryHive.file_open("C:\\regggg\\SYSTEM")#HKLM
-    reg_file3 = RegistryHive.file_open("C:\\regggg\\SOFTWARE") #\HKEY_LOCAL_MACHINE\SOFTWARE
-    reg_file4 = RegistryHive.file_open("C:\\regggg\\SAM")#HKLM
+    reg_file1 = RegistryHive.file_open(path+"\\gullabjamun.NTUSER.DAT")
+    reg_file2 = RegistryHive.file_open(path+"\\SYSTEM")#HKLM
+    reg_file3 = RegistryHive.file_open(path+"\\SOFTWARE") #\HKEY_LOCAL_MACHINE\SOFTWARE
+    reg_file4 = RegistryHive.file_open(path+"\\SAM")#HKLM
 
 
     ############################딕셔너리 설정######################################
@@ -91,7 +92,16 @@ def regtojson():
     return output
 
 
-testoutput = regtojson()
+
+#>python reg2json.py c:\regggg
+reg_path = sys.argv[1]
+
+if len(sys.argv) != 2:
+    print("Insufficient arguments")
+    sys.exit()
+
+#testoutput = regtojson("C:\\regggg")
+testoutput = regtojson(reg_path)
 f = open("./output.json", 'w', -1,'utf8')
 f.write(testoutput)
 f.close()
