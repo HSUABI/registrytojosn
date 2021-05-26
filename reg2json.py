@@ -23,7 +23,7 @@ def regtojson(path):
     #reg_file1 = RegistryHive.file_open("C:\\regggg\\gullabjamun.USRCLASS.DAT")#\HKEY_CURRENT_USER\SOFTWARE\Classes
 
     #레지스트리하이브파일 경로 설정해주세요꼮 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    reg_file1 = RegistryHive.file_open(path+"\\gullabjamun.NTUSER.DAT")
+    reg_file1 = RegistryHive.file_open(path+"\\NTUSER.DAT")
     reg_file2 = RegistryHive.file_open(path+"\\SYSTEM")#HKLM
     reg_file3 = RegistryHive.file_open(path+"\\SOFTWARE") #\HKEY_LOCAL_MACHINE\SOFTWARE
     reg_file4 = RegistryHive.file_open(path+"\\SAM")#HKLM
