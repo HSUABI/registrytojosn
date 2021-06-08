@@ -50,18 +50,30 @@ def regtojson(path):
 
     ##################문서 파일 열람#################################
     docs = []
-    info = reg_file1.Favorite.NTUSER.get_recent_docs()
-    for i in info:
-        docs.append(i)
+    try:    
+        info = reg_file1.Favorite.NTUSER.get_recent_docs()
+        for i in info:
+            docs.append(i)
+    except:
+        print("recent_docs 문서파일 열람 기록 분석중 ntuser 오류있어서 스킵")
 
-    info = reg_file1.Favorite.NTUSER.get_ms_office()
-    for i in info:
-        docs.append(i)
+    try:    
+        info = reg_file1.Favorite.NTUSER.get_ms_office()
+        for i in info:
+            docs.append(i)
+    except:
+        print("ms_office 문서파일 열람 기록 분석중 ntuser 오류있어서 스킵")
+
+    try:    
+        info = reg_file1.Favorite.NTUSER.get_HWP()
+        print(info)
+        for i in info:
+            docs.append(i)
+    except:
+        print("HWP 문서파일 열람 기록 분석중 ntuser 오류있어서 스킵")
 
 
-    info = reg_file1.Favorite.NTUSER.get_HWP()
-    for i in info:
-        docs.append(i)
+
 
 
     output["RecentDocs"] = docs
@@ -84,7 +96,11 @@ def regtojson(path):
     output = output.replace("'",'"')
     output = output.replace('\\x','\\\\x')
     output = output.replace('b"\\\\x','"\\\\x')
+
     output = output.replace("changechangechange1",'\'')
+    output = output.replace("b'\\\\x",'"\\\\x')
+    output = output.replace('xce"J',"xce'J")
+    output = output.replace("', ",'", ')
 
 
     #반환값은 dictionary를 문자열로 바꿔준 output임

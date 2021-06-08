@@ -1,0 +1,1875 @@
+[Device Install Log]
+     OS Version = 10.0.19041
+     Service Pack = 0.0
+     Suite = 0x0100
+     ProductType = 1
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2021/05/26 20:40:59.500]
+
+>>>  [Setup Import Driver Package - C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf]
+>>>  Section start 2021/05/26 20:42:16.206
+      cmd: C:\Windows\System32\spoolsv.exe
+     inf: Provider: Microsoft
+     inf: Class GUID: {4D36E979-E325-11CE-BFC1-08002BE10318}
+     inf: Driver Version: 06/21/2006,10.0.19041.1
+     inf: Catalog File: prnms009.cat
+     ump: Import flags: 0x0000000D
+     pol: {Driver package policy check} 20:42:16.253
+     pol: {Driver package policy check - exit(0x00000000)} 20:42:16.253
+     sto: {Stage Driver Package: C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf} 20:42:16.253
+     inf:      {Query Configurability: C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf} 20:42:16.269
+     inf:           Driver package 'prnms009.Inf' is configurable.
+     inf:      {Query Configurability: exit(0x00000000)} 20:42:16.269
+     flq:      {FILE_QUEUE_COMMIT} 20:42:16.269
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW_devmode_map.xml' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\MPDW_devmode_map.xml'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.cat' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\prnms009.cat'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\prnms009.Inf'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-PDC.xml' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\MPDW-PDC.xml'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-manifest.ini' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\MPDW-manifest.ini'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-pipelineconfig.xml' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\MPDW-pipelineconfig.xml'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-constraints.js' to 'C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\MPDW-constraints.js'.
+     flq:      {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:42:16.331
+     sto:      {DRIVERSTORE IMPORT VALIDATE} 20:42:16.347
+     sig:           Driver package catalog is valid.
+     sig:           {_VERIFY_FILE_SIGNATURE} 20:42:16.378
+     sig:                Key      = prnms009.Inf
+     sig:                FilePath = C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\prnms009.Inf
+     sig:                Catalog  = C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}\prnms009.cat
+     sig:                Success: File is signed in catalog.
+     sig:           {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:42:16.395
+     sto:      {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:42:16.409
+     sig:      Signer Score  = 0x0D000003 (Inbox)
+     sig:      Signer Name   = Microsoft Windows
+     sto:      {Core Driver Package Import: prnms009.inf_amd64_a7412a554c9bc1fd} 20:42:16.409
+     sto:           {DRIVERSTORE IMPORT BEGIN} 20:42:16.409
+     sto:           {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:42:16.409
+     cpy:           {Copy Directory: C:\Windows\System32\DriverStore\Temp\{677421c6-e800-004b-89f1-3446e5622347}} 20:42:16.409
+     cpy:                Target Path = C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_amd64_a7412a554c9bc1fd
+     cpy:           {Copy Directory: exit(0x00000000)} 20:42:16.409
+     idb:           {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_amd64_a7412a554c9bc1fd\prnms009.Inf} 20:42:16.409
+     idb:                Created driver package object 'prnms009.inf_amd64_a7412a554c9bc1fd' in DRIVERS database node.
+     idb:                Created driver INF file object 'oem0.inf' in DRIVERS database node.
+     idb:                Registered driver package 'prnms009.inf_amd64_a7412a554c9bc1fd' with 'oem0.inf'.
+     idb:           {Register Driver Package: exit(0x00000000)} 20:42:16.425
+     idb:           {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_amd64_a7412a554c9bc1fd\prnms009.Inf} 20:42:16.425
+     idb:                Activating driver package 'prnms009.inf_amd64_a7412a554c9bc1fd'.
+     cpy:                Published 'prnms009.inf_amd64_a7412a554c9bc1fd\prnms009.inf' to 'oem0.inf'.
+     idb:                Indexed 2 device IDs for 'prnms009.inf_amd64_a7412a554c9bc1fd'.
+     sto:                Flushed driver database node 'DRIVERS'. Time = 0 ms
+     sto:                Flushed driver database node 'SYSTEM'. Time = 15 ms
+     idb:           {Publish Driver Package: exit(0x00000000)} 20:42:16.456
+     sto:           {DRIVERSTORE IMPORT END} 20:42:16.472
+     dvi:                Flushed all driver package files to disk. Time = 15 ms
+     sig:                Installed catalog 'prnms009.cat' as 'oem0.cat'.
+     sto:           {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:42:16.503
+     sto:      {Core Driver Package Import: exit(0x00000000)} 20:42:16.503
+     sto: {Stage Driver Package: exit(0x00000000)} 20:42:16.503
+<<<  Section end 2021/05/26 20:42:16.597
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Setup Import Driver Package - C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\prnms001.Inf]
+>>>  Section start 2021/05/26 20:42:17.097
+      cmd: C:\Windows\System32\spoolsv.exe
+     inf: Provider: Microsoft
+     inf: Class GUID: {4D36E979-E325-11CE-BFC1-08002BE10318}
+     inf: Driver Version: 06/21/2006,10.0.19041.1
+     inf: Catalog File: prnms001.cat
+     ump: Import flags: 0x0000000D
+     pol: {Driver package policy check} 20:42:17.097
+     pol: {Driver package policy check - exit(0x00000000)} 20:42:17.097
+     sto: {Stage Driver Package: C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\prnms001.Inf} 20:42:17.097
+     inf:      {Query Configurability: C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\prnms001.Inf} 20:42:17.113
+     inf:           Driver package 'prnms001.Inf' is configurable.
+     inf:      {Query Configurability: exit(0x00000000)} 20:42:17.128
+     flq:      {FILE_QUEUE_COMMIT} 20:42:17.128
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\prnms001.cat' to 'C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\prnms001.cat'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\prnms001.Inf' to 'C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\prnms001.Inf'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\mxdwdui.dll' to 'C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\mxdwdui.dll'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\MXDW-manifest.ini' to 'C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\MXDW-manifest.ini'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\MXDW.gpd' to 'C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\MXDW.gpd'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft XPS Document Writer\MXDW-pipelineconfig.xml' to 'C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\MXDW-pipelineconfig.xml'.
+     flq:      {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:42:17.159
+     sto:      {DRIVERSTORE IMPORT VALIDATE} 20:42:17.159
+     sig:           Driver package catalog is valid.
+     sig:           {_VERIFY_FILE_SIGNATURE} 20:42:17.191
+     sig:                Key      = prnms001.Inf
+     sig:                FilePath = C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\prnms001.Inf
+     sig:                Catalog  = C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}\prnms001.cat
+     sig:                Success: File is signed in catalog.
+     sig:           {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:42:17.191
+     sto:      {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:42:17.191
+     sig:      Signer Score  = 0x0D000003 (Inbox)
+     sig:      Signer Name   = Microsoft Windows
+     sto:      {Core Driver Package Import: prnms001.inf_amd64_8bc1bda6cf47380c} 20:42:17.191
+     sto:           {DRIVERSTORE IMPORT BEGIN} 20:42:17.191
+     sto:           {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:42:17.191
+     cpy:           {Copy Directory: C:\Windows\System32\DriverStore\Temp\{48727894-5ed5-554a-b1ef-fe88778a56ac}} 20:42:17.206
+     cpy:                Target Path = C:\Windows\System32\DriverStore\FileRepository\prnms001.inf_amd64_8bc1bda6cf47380c
+     cpy:           {Copy Directory: exit(0x00000000)} 20:42:17.222
+     idb:           {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\prnms001.inf_amd64_8bc1bda6cf47380c\prnms001.Inf} 20:42:17.222
+     idb:                Created driver package object 'prnms001.inf_amd64_8bc1bda6cf47380c' in DRIVERS database node.
+     idb:                Created driver INF file object 'oem1.inf' in DRIVERS database node.
+     idb:                Registered driver package 'prnms001.inf_amd64_8bc1bda6cf47380c' with 'oem1.inf'.
+     idb:           {Register Driver Package: exit(0x00000000)} 20:42:17.238
+     idb:           {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\prnms001.inf_amd64_8bc1bda6cf47380c\prnms001.Inf} 20:42:17.238
+     idb:                Activating driver package 'prnms001.inf_amd64_8bc1bda6cf47380c'.
+     cpy:                Published 'prnms001.inf_amd64_8bc1bda6cf47380c\prnms001.inf' to 'oem1.inf'.
+     idb:                Indexed 2 device IDs for 'prnms001.inf_amd64_8bc1bda6cf47380c'.
+     sto:                Flushed driver database node 'DRIVERS'. Time = 0 ms
+     sto:                Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:           {Publish Driver Package: exit(0x00000000)} 20:42:17.238
+     sto:           {DRIVERSTORE IMPORT END} 20:42:17.254
+     dvi:                Flushed all driver package files to disk. Time = 16 ms
+     sig:                Installed catalog 'prnms001.cat' as 'oem1.cat'.
+     sto:           {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:42:17.300
+     sto:      {Core Driver Package Import: exit(0x00000000)} 20:42:17.300
+     sto: {Stage Driver Package: exit(0x00000000)} 20:42:17.300
+<<<  Section end 2021/05/26 20:42:17.379
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Install Windows Update driver) - pci\ven_15ad&dev_0740&subsys_074015ad]
+>>>  Section start 2021/05/26 20:43:28.905
+      cmd: "C:\Windows\system32\wuauclt.exe" /UpdateDeploymentProvider UpdateDeploymentProvider.dll /ClassId 6f400d73-2f05-4e77-bf61-97c1c5eb3205 /RunHandlerComServer
+     dvs: INF path: C:\Windows\SoftwareDistribution\Download\Install
+     dvs: Found 1 driver updates under 'C:\Windows\SoftwareDistribution\Download\Install'. 20:43:28.905
+     dvs: {Driver Setup Import Driver Package: C:\Windows\SoftwareDistribution\Download\Install\vmci.inf} 20:43:28.905
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:43:28.921
+     pol:      {Driver package policy check - exit(0x00000000)} 20:43:28.921
+     sto:      {Stage Driver Package: C:\Windows\SoftwareDistribution\Download\Install\vmci.inf} 20:43:28.921
+     inf:           {Query Configurability: C:\Windows\SoftwareDistribution\Download\Install\vmci.inf} 20:43:28.921
+     inf:                Driver package 'vmci.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:43:28.921
+     flq:           {FILE_QUEUE_COMMIT} 20:43:28.921
+     flq:                Copying 'C:\Windows\SoftwareDistribution\Download\Install\vmci.cat' to 'C:\Windows\System32\DriverStore\Temp\{241632dd-690a-0a43-9c09-8e1531c3f140}\vmci.cat'.
+     flq:                Copying 'C:\Windows\SoftwareDistribution\Download\Install\vmci.inf' to 'C:\Windows\System32\DriverStore\Temp\{241632dd-690a-0a43-9c09-8e1531c3f140}\vmci.inf'.
+     flq:                Copying 'C:\Windows\SoftwareDistribution\Download\Install\vmci.sys' to 'C:\Windows\System32\DriverStore\Temp\{241632dd-690a-0a43-9c09-8e1531c3f140}\vmci.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:43:28.936
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:43:28.936
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:43:28.967
+     sig:                     Key      = vmci.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{241632dd-690a-0a43-9c09-8e1531c3f140}\vmci.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{241632dd-690a-0a43-9c09-8e1531c3f140}\vmci.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:43:28.967
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:43:28.967
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30099670_13889127882838878_1152921505690552383
+     sto:           {Core Driver Package Import: vmci.inf_amd64_5e38a278d114b813} 20:43:28.967
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:43:28.967
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:43:28.967
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{241632dd-690a-0a43-9c09-8e1531c3f140}} 20:43:28.967
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813
+     cpy:                {Copy Directory: exit(0x00000000)} 20:43:28.983
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf} 20:43:28.983
+     idb:                     Created driver package object 'vmci.inf_amd64_5e38a278d114b813' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem2.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'vmci.inf_amd64_5e38a278d114b813' with 'oem2.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:43:28.983
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf} 20:43:28.983
+     idb:                     Activating driver package 'vmci.inf_amd64_5e38a278d114b813'.
+     cpy:                     Published 'vmci.inf_amd64_5e38a278d114b813\vmci.inf' to 'oem2.inf'.
+     idb:                     Indexed 4 device IDs for 'vmci.inf_amd64_5e38a278d114b813'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:43:28.999
+     sto:                {DRIVERSTORE IMPORT END} 20:43:28.999
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'vmci.cat' as 'oem2.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:43:28.999
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:43:28.999
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:43:28.999
+     dvi:      Flushed SOFTWARE registry hive. 20:43:29.061
+     dvi:      Flushed SYSTEM registry hive. 20:43:29.061
+     dvi:      Flushed DRIVERS registry hive. 20:43:29.061
+     dvs: {Driver Setup Import Driver Package - exit (0x00000000)} 20:43:29.061
+     dvs: {Driver Setup Update Device: PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61aaa01&0&3F} 20:43:29.061
+     utl:      {Select Drivers - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61aaa01&0&3F} 20:43:29.077
+     utl:           Driver Node:
+     utl:                Status         - Selected
+     utl:                Driver INF     - oem2.inf (C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf)
+     utl:                Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 07/11/2019,9.8.16.0
+     utl:                Configuration  - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     utl:                Driver Rank    - 00FF0001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:           Driver Node:
+     utl:                Status         - Outranked
+     utl:                Driver INF     - oem2.inf (C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf)
+     utl:                Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+     utl:                Driver Version - 07/11/2019,9.8.16.0
+     utl:                Configuration  - PCI\VEN_15AD&DEV_0740
+     utl:                Driver Rank    - 00FF3001
+     utl:                Signer Score   - WHQL (0D000005)
+     utl:      {Select Drivers - exit(0x00000000} 20:43:29.077
+     dvs:      Installing best driver (oem2.inf) on device 'PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61aaa01&0&3F'.
+     ump:      {Plug and Play Service: Device Install for PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F}
+     dvi:           {Core Device Install} 20:43:29.092
+     dvi:                {Configure Device - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F} 20:43:29.092
+     dvi:                     Device Status: 0x01802400 [0x1c - 0xc0000490]
+     dvi:                     Config Flags: 0x00000060
+     dvi:                     Parent Device: ACPI\PNP0A03\2&daba3ff&0
+     sto:                     {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf}
+     sto:                          Source Filter  = PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     inf:                          Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: VMware VMCI Bus Device}
+     inf:                               Section Name = vmci.install.x64.NT
+     inf:                               {Add Service: vmci}
+     inf:                                    Start Type    = 0
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = System32\drivers\vmci.sys
+     inf:                                    Display Name  = VMware VMCI Bus Driver
+     inf:                                    Group         = System Bus Extender
+     inf:                                    Created new service 'vmci'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     inf:                               Compatible Id = PCI\VEN_15AD&DEV_0740
+     inf:                               {Configure Driver Configuration: vmci.install.x64.NT}
+     inf:                                    Service Name  = vmci
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:43:29.108
+     flq:                               Copying 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.sys' to 'C:\Windows\System32\drivers\vmci.sys'.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:43:29.124
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 20:43:29.124
+     dvi:                          Configuration: oem2.inf:PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD,*
+     dvi:                     Install Device: Configuring device completed. 20:43:29.124
+     dvi:                     Device Status: 0x01802000
+     dvi:                     {Restarting Devices} 20:43:29.124
+     dvi:                          Start: PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F
+     dvi:                     {Restarting Devices exit} 20:43:29.171
+     dvi:                {Configure Device - exit(0x00000000)} 20:43:29.171
+     dvi:           {Core Device Install - exit(0x00000000)} 20:43:29.186
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     dvs:      {Install Related Drivers} 20:43:29.202
+     dvs:      {Install Related Drivers: exit(0x00000000)} 20:43:29.202
+     dvs: {Driver Setup Update Device - exit(0x00000000)} 20:43:29.202
+     dvs: Created driver update {899a1b34-68ad-5585-ad6c-19354e3b05fe}. HardwareId = pci\ven_15ad&dev_0740&subsys_074015ad
+<<<  Section end 2021/05/26 20:43:29.202
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [SetupUninstallOEMInf - oem2.inf]
+>>>  Section start 2021/05/26 20:47:47.939
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Flags: 0x00000001
+     dvs: {DrvSetupUninstallDriver - C:\Windows\INF\oem2.inf}
+     dvs:      Flags: 0x10000001
+     dvs:      {Driver Setup Delete Driver Package: oem2.inf} 20:47:47.954
+!    utl:           INF INF 'oem2.inf' still in use by device 'PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61aaa01&0&3F'.
+!    utl:           Primary INF 'oem2.inf' is still in use by devices.
+!    dvs:           Forcing uninstall of INF 'oem2.inf' still in use by devices.
+     utl:           Invalidated INF 'oem2.inf' on device 'PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61aaa01&0&3F'.
+     ump:           Delete flags: 0x00010002
+     pol:           {Driver package policy check} 20:47:48.033
+     pol:           {Driver package policy check - exit(0x00000000)} 20:47:48.033
+     sto:           {Unstage Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf} 20:47:48.033
+     sto:                {Core Driver Package Delete: vmci.inf_amd64_5e38a278d114b813} 20:47:48.033
+     sto:                     {DRIVERSTORE DELETE BEGIN} 20:47:48.048
+     sto:                     {DRIVERSTORE DELETE BEGIN: exit(0x00000000)} 20:47:48.048
+     sto:                     {Unconfigure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf}
+     inf:                          Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Unconfigure Driver: VMware VMCI Bus Device}
+     inf:                               Section Name = vmci.install.x64.NT
+     inf:                               {Add Service: vmci}
+     inf:                                    AddReg: HKLM\SYSTEM\CurrentControlSet\Services\vmci\vwdk.installers
+     inf:                                    AddReg: HKLM\SYSTEM\CurrentControlSet\Services\vmci\vwdk.installers
+     inf:                                    AddReg: HKLM\SYSTEM\CurrentControlSet\Services\EventLog\System\vmci\EventMessageFile
+     inf:                                    AddReg: HKLM\SYSTEM\CurrentControlSet\Services\EventLog\System\vmci\TypesSupported
+     inf:                                    Service 'vmci' remains with owner '!vmci.inf_amd64_5e38a278d114b813'.
+     inf:                                    Service 'vmci' still in use by 1 source.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               File 'C:\Windows\System32\drivers\vmci.sys' remains with owner '!vmci.inf_amd64_5e38a278d114b813'.
+     inf:                               File 'C:\Windows\System32\drivers\vmci.sys' still in use by 1 source.
+     inf:                          {Unconfigure Driver: exit(0x00000000)}
+     inf:                          {Unconfigure Driver: VMware VMCI Host Device}
+     inf:                               Section Name = vmci.install.x64.NT
+     inf:                          {Unconfigure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:47:48.064
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:48.064
+     sto:                     {Unconfigure Driver Package: exit(0x00000000)}
+     idb:                     {Unpublish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf} 20:47:48.064
+     idb:                          Clearing active driver package 'vmci.inf_amd64_5e38a278d114b813'.
+     cpy:                          Unpublished 'oem2.inf'.
+     idb:                          Deindexed 4 device IDs for 'vmci.inf_amd64_5e38a278d114b813'.
+     sto:                          Flushed driver database node 'SYSTEM'. Time = 16 ms
+     idb:                     {Unpublish Driver Package: exit(0x00000000)} 20:47:48.095
+     idb:                     {Unregister Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813\vmci.inf} 20:47:48.095
+     idb:                          Unregistered driver package 'vmci.inf_amd64_5e38a278d114b813' from 'oem2.inf'.
+     idb:                          Deleted driver package object 'vmci.inf_amd64_5e38a278d114b813' from SYSTEM database node.
+     idb:                          Deleted driver INF file object 'oem2.inf' from SYSTEM database node.
+     idb:                     {Unregister Driver Package: exit(0x00000000)} 20:47:48.095
+     cpy:                     {Delete Directory: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_5e38a278d114b813} 20:47:48.095
+     cpy:                     {Delete Directory: exit(0x00000000)} 20:47:48.095
+     sto:                     {DRIVERSTORE DELETE END} 20:47:48.095
+     sig:                          Uninstalled catalog 'oem2.cat'.
+     sto:                     {DRIVERSTORE DELETE END: exit(0x00000000)} 20:47:48.111
+     sto:                {Core Driver Package Delete: exit(0x00000000)} 20:47:48.111
+     sto:           {Unstage Driver Package: exit(0x00000000)} 20:47:48.111
+     dvs:      {Driver Setup Delete Driver Package - exit (0x00000000)} 20:47:48.111
+     dvs: {DrvSetupUninstallDriver - exit(00000000)}
+<<<  Section end 2021/05/26 20:47:48.111
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf]
+>>>  Section start 2021/05/26 20:47:48.111
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf} 20:47:48.126
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:      Driver Version: 05/25/2016,9.8.6.0
+     inf:      Catalog File: vmci.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:48.142
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:48.142
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf} 20:47:48.142
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf} 20:47:48.158
+     inf:                Driver package 'vmci.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:48.158
+     flq:           {FILE_QUEUE_COMMIT} 20:47:48.158
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.cat' to 'C:\Windows\System32\DriverStore\Temp\{e8f51a7d-a234-be43-bd29-8d37e999789e}\vmci.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf' to 'C:\Windows\System32\DriverStore\Temp\{e8f51a7d-a234-be43-bd29-8d37e999789e}\vmci.inf'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.sys' to 'C:\Windows\System32\DriverStore\Temp\{e8f51a7d-a234-be43-bd29-8d37e999789e}\vmci.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:48.204
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:48.204
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:48.236
+     sig:                     Key      = vmci.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{e8f51a7d-a234-be43-bd29-8d37e999789e}\vmci.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{e8f51a7d-a234-be43-bd29-8d37e999789e}\vmci.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:47:48.236
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:47:48.236
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 1849522
+     sto:           {Core Driver Package Import: vmci.inf_amd64_64189b30c198ca23} 20:47:48.251
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:47:48.251
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:47:48.251
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{e8f51a7d-a234-be43-bd29-8d37e999789e}} 20:47:48.251
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23
+     cpy:                {Copy Directory: exit(0x00000000)} 20:47:48.251
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf} 20:47:48.251
+     idb:                     Created driver package object 'vmci.inf_amd64_64189b30c198ca23' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem2.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'vmci.inf_amd64_64189b30c198ca23' with 'oem2.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:47:48.251
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf} 20:47:48.251
+     idb:                     Activating driver package 'vmci.inf_amd64_64189b30c198ca23'.
+     cpy:                     Published 'vmci.inf_amd64_64189b30c198ca23\vmci.inf' to 'oem2.inf'.
+     idb:                     Indexed 4 device IDs for 'vmci.inf_amd64_64189b30c198ca23'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:47:48.267
+     sto:                {DRIVERSTORE IMPORT END} 20:47:48.267
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'vmci.cat' as 'oem2.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:47:48.283
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:47:48.283
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:47:48.283
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:47:48.345
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf
+     inf: Published Inf Path: C:\Windows\INF\oem2.inf
+<<<  Section end 2021/05/26 20:47:48.345
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD]
+>>>  Section start 2021/05/26 20:47:48.345
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf'
+     dvi:      {Build Driver List} 20:47:48.364
+     dvi:           Searching for hardware ID(s):
+     dvi:                pci\ven_15ad&dev_0740&subsys_074015ad&rev_10
+     dvi:                pci\ven_15ad&dev_0740&subsys_074015ad
+     dvi:                pci\ven_15ad&dev_0740&cc_088000
+     dvi:                pci\ven_15ad&dev_0740&cc_0880
+     dvi:           Searching for compatible ID(s):
+     dvi:                pci\ven_15ad&dev_0740&rev_10
+     dvi:                pci\ven_15ad&dev_0740
+     dvi:                pci\ven_15ad&cc_088000
+     dvi:                pci\ven_15ad&cc_0880
+     dvi:                pci\ven_15ad
+     dvi:                pci\cc_088000
+     dvi:                pci\cc_0880
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf
+     dvi:                DevDesc      - VMware VMCI Bus Device
+     dvi:                Section      - vmci.install.x64.NT
+     dvi:                Rank         - 0x00ff0001
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 05/25/2016
+     dvi:                Version      - 9.8.6.0
+     dvi:      {Build Driver List - exit(0x00000000)} 20:47:48.376
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 20:47:48.376
+     dvi:           Default installer: Enter 20:47:48.392
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e97d-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - VMware VMCI Bus Device
+     dvi:                          InfFile     - c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf
+     dvi:                          Section     - vmci.install.x64
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:47:48.392
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - vmci.inf
+     ndv:           Driver Date    - 05/25/2016
+     ndv:           Driver Version - 9.8.6.0
+     ndv:      Driver package 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf} 20:47:48.392
+     sto:           Driver package already imported as 'oem2.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 20:47:48.408
+     dvi:      Searching for hardware ID(s):
+     dvi:           pci\ven_15ad&dev_0740&subsys_074015ad&rev_10
+     dvi:           pci\ven_15ad&dev_0740&subsys_074015ad
+     dvi:           pci\ven_15ad&dev_0740&cc_088000
+     dvi:           pci\ven_15ad&dev_0740&cc_0880
+     dvi:      Searching for compatible ID(s):
+     dvi:           pci\ven_15ad&dev_0740&rev_10
+     dvi:           pci\ven_15ad&dev_0740
+     dvi:           pci\ven_15ad&cc_088000
+     dvi:           pci\ven_15ad&cc_0880
+     dvi:           pci\ven_15ad
+     dvi:           pci\cc_088000
+     dvi:           pci\cc_0880
+     dvi:      Class GUID of device changed to: {4d36e97d-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F}
+     dvi:           {Core Device Install} 20:47:48.439
+     dvi:                {Configure Device - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F} 20:47:48.439
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: ACPI\PNP0A03\2&daba3ff&0
+     sto:                     {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf}
+     sto:                          Source Filter  = pci\ven_15ad&dev_0740&subsys_074015ad
+     inf:                          Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: VMware VMCI Bus Device}
+     inf:                               Section Name = vmci.install.x64.NT
+     inf:                               {Add Service: vmci}
+     inf:                                    Start Type    = 0
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = System32\drivers\vmci.sys
+     inf:                                    Display Name  = VMware VMCI Bus Driver
+     inf:                                    Group         = System Bus Extender
+     inf:                                    Updated service 'vmci'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     inf:                               Compatible Id = PCI\VEN_15AD&DEV_0740
+     inf:                               {Configure Driver Configuration: vmci.install.x64.NT}
+     inf:                                    Service Name  = vmci
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:47:48.470
+     flq:                               Copying 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.sys' to 'C:\Windows\System32\drivers\vmci.sys'.
+!    flq:                               MoveFile: 'C:\Windows\System32\drivers\SET3ED0.tmp' to 'C:\Windows\System32\drivers\vmci.sys' FAILED
+!    flq:                               Error 5: Access is denied.
+     flq:                               Shuffle-MoveFile: 'C:\Windows\System32\drivers\SET3ED0.tmp' to 'C:\Windows\System32\drivers\vmci.sys'
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:48.501
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 20:47:48.501
+     dvi:                          Configuration: oem2.inf:pci\ven_15ad&dev_0740&subsys_074015ad,vmci.install.x64
+     dvi:                     Install Device: Configuring device completed. 20:47:48.501
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     {Restarting Devices} 20:47:48.501
+     dvi:                          Query-remove: PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F
+     dvi:                          Start: PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F
+     dvi:                          Restart verified: PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F
+     dvi:                     {Restarting Devices exit} 20:47:48.595
+     dvi:                {Configure Device - exit(0x00000000)} 20:47:48.595
+     dvi:           {Core Device Install - exit(0x00000000)} 20:47:48.595
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 20:47:48.595
+     ndv: {Install Related Drivers: exit(0x00000000)} 20:47:48.611
+<<<  Section end 2021/05/26 20:47:48.611
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_0740]
+>>>  Section start 2021/05/26 20:47:48.611
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf'
+     dvi:      {Build Driver List} 20:47:48.627
+     dvi:           Searching for hardware ID(s):
+     dvi:                pci\ven_15ad&dev_0740&subsys_074015ad&rev_10
+     dvi:                pci\ven_15ad&dev_0740&subsys_074015ad
+     dvi:                pci\ven_15ad&dev_0740&cc_088000
+     dvi:                pci\ven_15ad&dev_0740&cc_0880
+     dvi:           Searching for compatible ID(s):
+     dvi:                pci\ven_15ad&dev_0740&rev_10
+     dvi:                pci\ven_15ad&dev_0740
+     dvi:                pci\ven_15ad&cc_088000
+     dvi:                pci\ven_15ad&cc_0880
+     dvi:                pci\ven_15ad
+     dvi:                pci\cc_088000
+     dvi:                pci\cc_0880
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf
+     dvi:                DevDesc      - VMware VMCI Bus Device
+     dvi:                Section      - vmci.install.x64.NT
+     dvi:                Rank         - 0x00ff0001
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 05/25/2016
+     dvi:                Version      - 9.8.6.0
+     dvi:      {Build Driver List - exit(0x00000000)} 20:47:48.643
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 20:47:48.643
+     dvi:           Default installer: Enter 20:47:48.643
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e97d-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - VMware VMCI Bus Device
+     dvi:                          InfFile     - c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf
+     dvi:                          Section     - vmci.install.x64
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:47:48.643
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - vmci.inf
+     ndv:           Driver Date    - 05/25/2016
+     ndv:           Driver Version - 9.8.6.0
+     ndv:      Driver package 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf} 20:47:48.657
+     sto:           Driver package already imported as 'oem2.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 20:47:48.657
+     dvi:      Searching for hardware ID(s):
+     dvi:           pci\ven_15ad&dev_0740&subsys_074015ad&rev_10
+     dvi:           pci\ven_15ad&dev_0740&subsys_074015ad
+     dvi:           pci\ven_15ad&dev_0740&cc_088000
+     dvi:           pci\ven_15ad&dev_0740&cc_0880
+     dvi:      Searching for compatible ID(s):
+     dvi:           pci\ven_15ad&dev_0740&rev_10
+     dvi:           pci\ven_15ad&dev_0740
+     dvi:           pci\ven_15ad&cc_088000
+     dvi:           pci\ven_15ad&cc_0880
+     dvi:           pci\ven_15ad
+     dvi:           pci\cc_088000
+     dvi:           pci\cc_0880
+     dvi:      Class GUID of device changed to: {4d36e97d-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F}
+     dvi:           {Core Device Install} 20:47:48.689
+     dvi:                {Configure Device - PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F} 20:47:48.689
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: ACPI\PNP0A03\2&daba3ff&0
+     sto:                     {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf}
+     sto:                          Source Filter  = pci\ven_15ad&dev_0740&subsys_074015ad
+     inf:                          Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: VMware VMCI Bus Device}
+     inf:                               Section Name = vmci.install.x64.NT
+     inf:                               {Add Service: vmci}
+     inf:                                    Start Type    = 0
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = System32\drivers\vmci.sys
+     inf:                                    Display Name  = VMware VMCI Bus Driver
+     inf:                                    Group         = System Bus Extender
+     inf:                                    Updated service 'vmci'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD
+     inf:                               Compatible Id = PCI\VEN_15AD&DEV_0740
+     inf:                               {Configure Driver Configuration: vmci.install.x64.NT}
+     inf:                                    Service Name  = vmci
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:47:48.720
+     flq:                               Copying 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.sys' to 'C:\Windows\System32\drivers\vmci.sys'.
+     cpy:                               Existing file 'C:\Windows\System32\drivers\vmci.sys' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:48.736
+     sto:                     {Configure Driver Package: exit(0x00000000)}
+     dvi:                     Install Device: Configuring device. 20:47:48.736
+     dvi:                          Configuration: oem2.inf:pci\ven_15ad&dev_0740&subsys_074015ad,vmci.install.x64
+     dvi:                     Install Device: Configuring device completed. 20:47:48.736
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Install Device: Removing device 'PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F' and sub-tree. 20:47:48.736
+     dvi:                     Install Device: Removing device sub-tree completed. 20:47:48.751
+     dvi:                     Install Device: Restarting device. 20:47:48.751
+     dvi:                     Install Device: Restarting device completed. 20:47:48.767
+     dvi:                {Configure Device - exit(0x00000000)} 20:47:48.767
+     dvi:           {Core Device Install - exit(0x00000000)} 20:47:48.767
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 20:47:48.782
+     ndv: {Install Related Drivers: exit(0x00000000)} 20:47:48.782
+<<<  Section end 2021/05/26 20:47:48.782
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - ROOT\VMWVMCIHOSTDEV]
+>>>  Section start 2021/05/26 20:47:48.782
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - ROOT\VMWVMCIHOSTDEV\0000}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Program Files\Common Files\VMware\Drivers\vmci\device\Win8\vmci.inf'
+     dvi:      {Build Driver List} 20:47:48.798
+     dvi:           Searching for hardware ID(s):
+     dvi:                root\vmwvmcihostdev
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - ROOT\VMWVMCIHOSTDEV
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf
+     dvi:                DevDesc      - VMware VMCI Host Device
+     dvi:                Section      - vmci.install.x64.NT
+     dvi:                Rank         - 0x00ff0000
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 05/25/2016
+     dvi:                Version      - 9.8.6.0
+     dvi:      {Build Driver List - exit(0x00000000)} 20:47:48.814
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 20:47:48.814
+     dvi:           Default installer: Enter 20:47:48.814
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e97d-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - VMware VMCI Host Device
+     dvi:                          InfFile     - c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf
+     dvi:                          Section     - vmci.install.x64
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:47:48.814
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - vmci.inf
+     ndv:           Driver Date    - 05/25/2016
+     ndv:           Driver Version - 9.8.6.0
+     ndv:      Driver package 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\program files\common files\vmware\drivers\vmci\device\win8\vmci.inf} 20:47:48.829
+     sto:           Driver package already imported as 'oem2.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 20:47:48.829
+     dvi:      Searching for hardware ID(s):
+     dvi:           root\vmwvmcihostdev
+     dvi:      Class GUID of device changed to: {4d36e97d-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for ROOT\VMWVMCIHOSTDEV\0000}
+     dvi:           {Core Device Install} 20:47:48.845
+     dvi:                {Configure Device - ROOT\VMWVMCIHOSTDEV\0000} 20:47:48.845
+     dvi:                     Device Status: 0x01802001
+     dvi:                     Parent Device: HTREE\ROOT\0
+     sto:                     {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.inf}
+     sto:                          Source Filter  = root\vmwvmcihostdev
+     inf:                          Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: VMware VMCI Host Device}
+     inf:                               Section Name = vmci.install.x64.NT
+     inf:                               {Add Service: vmci}
+     inf:                                    Start Type    = 0
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = System32\drivers\vmci.sys
+     inf:                                    Display Name  = VMware VMCI Bus Driver
+     inf:                                    Group         = System Bus Extender
+     inf:                                    Updated service 'vmci'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = ROOT\VMWVMCIHOSTDEV
+     inf:                               {Configure Driver Configuration: vmci.install.x64.NT}
+     inf:                                    Service Name  = vmci
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:47:48.876
+     flq:                               Copying 'C:\Windows\System32\DriverStore\FileRepository\vmci.inf_amd64_64189b30c198ca23\vmci.sys' to 'C:\Windows\System32\drivers\vmci.sys'.
+     cpy:                               Existing file 'C:\Windows\System32\drivers\vmci.sys' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:48.876
+     sto:                     {Configure Driver Package: exit(0x00000000)}
+     dvi:                     Install Device: Configuring device. 20:47:48.876
+     dvi:                          Configuration: oem2.inf:root\vmwvmcihostdev,vmci.install.x64
+     dvi:                     Install Device: Configuring device completed. 20:47:48.892
+     dvi:                     Device Status: 0x01802001
+     dvi:                     Install Device: Starting device 'ROOT\VMWVMCIHOSTDEV\0000'. 20:47:48.892
+     dvi:                     Install Device: Starting device completed. 20:47:48.892
+     dvi:                {Configure Device - exit(0x00000000)} 20:47:48.892
+     dvi:           {Core Device Install - exit(0x00000000)} 20:47:48.892
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 20:47:48.908
+     ndv: {Install Related Drivers: exit(0x00000000)} 20:47:48.908
+<<<  Section end 2021/05/26 20:47:48.908
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.inf]
+>>>  Section start 2021/05/26 20:47:51.079
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.inf} 20:47:51.095
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {f2e7dd72-6468-4e36-b6f1-6488f42c1b52}
+     inf:      Driver Version: 04/24/2017,1.0.0.0
+     inf:      Catalog File: efifw.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:51.111
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:51.111
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.inf} 20:47:51.111
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.inf} 20:47:51.127
+     inf:                Driver package 'efifw.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:51.127
+     flq:           {FILE_QUEUE_COMMIT} 20:47:51.127
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifwfromhost.bin' to 'C:\Windows\System32\DriverStore\Temp\{e3e99c87-4af0-d343-abfb-4b164860af24}\efifwfromhost.bin'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.cat' to 'C:\Windows\System32\DriverStore\Temp\{e3e99c87-4af0-d343-abfb-4b164860af24}\efifw.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.inf' to 'C:\Windows\System32\DriverStore\Temp\{e3e99c87-4af0-d343-abfb-4b164860af24}\efifw.inf'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:51.158
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:51.158
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:51.174
+     sig:                     Key      = efifw.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{e3e99c87-4af0-d343-abfb-4b164860af24}\efifw.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{e3e99c87-4af0-d343-abfb-4b164860af24}\efifw.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:47:51.189
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:47:51.189
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30099670_13546561473206124_1152921504627108643
+     sto:           {Core Driver Package Import: efifw.inf_amd64_69a2acd666b70e2c} 20:47:51.189
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:47:51.189
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:47:51.204
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{e3e99c87-4af0-d343-abfb-4b164860af24}} 20:47:51.204
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\efifw.inf_amd64_69a2acd666b70e2c
+     cpy:                {Copy Directory: exit(0x00000000)} 20:47:51.204
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\efifw.inf_amd64_69a2acd666b70e2c\efifw.inf} 20:47:51.204
+     idb:                     Created driver package object 'efifw.inf_amd64_69a2acd666b70e2c' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem3.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'efifw.inf_amd64_69a2acd666b70e2c' with 'oem3.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:47:51.204
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\efifw.inf_amd64_69a2acd666b70e2c\efifw.inf} 20:47:51.204
+     idb:                     Activating driver package 'efifw.inf_amd64_69a2acd666b70e2c'.
+     cpy:                     Published 'efifw.inf_amd64_69a2acd666b70e2c\efifw.inf' to 'oem3.inf'.
+     idb:                     Indexed 2 device IDs for 'efifw.inf_amd64_69a2acd666b70e2c'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:47:51.236
+     sto:                {DRIVERSTORE IMPORT END} 20:47:51.236
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'efifw.cat' as 'oem3.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:47:51.236
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:47:51.236
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:47:51.251
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:47:51.298
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\efifw.inf_amd64_69a2acd666b70e2c\efifw.inf
+     inf: Published Inf Path: C:\Windows\INF\oem3.inf
+<<<  Section end 2021/05/26 20:47:51.314
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - UEFI\RES_{c9cf6ed5-7195-4824-b60b-7acdc14b6c82}]
+>>>  Section start 2021/05/26 20:47:51.314
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\efifw\Win8\efifw.inf
+     ndv: Install flags: 0x00000001
+!    ndv: Unable to find any matching devices.
+<<<  Section end 2021/05/26 20:47:51.330
+<<<  [Exit status: FAILURE(0xe000020b)]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf]
+>>>  Section start 2021/05/26 20:47:52.892
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf} 20:47:52.892
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:      Driver Version: 09/03/2018,1.8.3.1
+     inf:      Catalog File: vmxnet3.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:52.923
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:52.923
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf} 20:47:52.923
+!    inf:           Needed section [PciIoSpaceNotRequired] found in included INF "pci.inf", not referenced from [vmxnet3.ndis61.x64.ndi.NT.Hw]. Code = 1313, Line = 263
+!    inf:           Needed section [PciIoSpaceNotRequired] found in included INF "pci.inf", not referenced from [vmxnet3.ndis620.x64.ndi.NT.Hw]. Code = 1313, Line = 317
+!    inf:           Needed section [PciIoSpaceNotRequired] found in included INF "pci.inf", not referenced from [vmxnet3.ndis630.x64.ndi.NT.Hw]. Code = 1313, Line = 373
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf} 20:47:52.941
+     inf:                Driver package 'vmxnet3.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:52.956
+     flq:           {FILE_QUEUE_COMMIT} 20:47:52.956
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.cat' to 'C:\Windows\System32\DriverStore\Temp\{82a308a2-691e-ee49-8214-717fec461440}\vmxnet3.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf' to 'C:\Windows\System32\DriverStore\Temp\{82a308a2-691e-ee49-8214-717fec461440}\vmxnet3.inf'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.sys' to 'C:\Windows\System32\DriverStore\Temp\{82a308a2-691e-ee49-8214-717fec461440}\vmxnet3.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:53.001
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:53.001
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:53.033
+     sig:                     Key      = vmxnet3.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{82a308a2-691e-ee49-8214-717fec461440}\vmxnet3.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{82a308a2-691e-ee49-8214-717fec461440}\vmxnet3.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:47:53.048
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:47:53.048
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30099670_13680130148125487_1152921504627779920
+     sto:           {Core Driver Package Import: vmxnet3.inf_amd64_6955aad251a1625d} 20:47:53.048
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:47:53.048
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:47:53.064
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{82a308a2-691e-ee49-8214-717fec461440}} 20:47:53.064
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\vmxnet3.inf_amd64_6955aad251a1625d
+     cpy:                {Copy Directory: exit(0x00000000)} 20:47:53.064
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmxnet3.inf_amd64_6955aad251a1625d\vmxnet3.inf} 20:47:53.064
+     idb:                     Created driver package object 'vmxnet3.inf_amd64_6955aad251a1625d' in DRIVERS database node.
+     idb:                     Created driver INF file object 'oem4.inf' in DRIVERS database node.
+     idb:                     Registered driver package 'vmxnet3.inf_amd64_6955aad251a1625d' with 'oem4.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:47:53.064
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmxnet3.inf_amd64_6955aad251a1625d\vmxnet3.inf} 20:47:53.064
+     idb:                     Activating driver package 'vmxnet3.inf_amd64_6955aad251a1625d'.
+     cpy:                     Published 'vmxnet3.inf_amd64_6955aad251a1625d\vmxnet3.inf' to 'oem4.inf'.
+     idb:                     Indexed 2 device IDs for 'vmxnet3.inf_amd64_6955aad251a1625d'.
+     sto:                     Flushed driver database node 'DRIVERS'. Time = 0 ms
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 16 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:47:53.095
+     sto:                {DRIVERSTORE IMPORT END} 20:47:53.095
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'vmxnet3.cat' as 'oem4.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:47:53.111
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:47:53.111
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:47:53.111
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:47:53.158
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\vmxnet3.inf_amd64_6955aad251a1625d\vmxnet3.inf
+     inf: Published Inf Path: C:\Windows\INF\oem4.inf
+<<<  Section end 2021/05/26 20:47:53.175
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_07B0&SUBSYS_07B015AD]
+>>>  Section start 2021/05/26 20:47:53.175
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf
+     ndv: Install flags: 0x00000001
+!    ndv: Unable to find any matching devices.
+<<<  Section end 2021/05/26 20:47:53.189
+<<<  [Exit status: FAILURE(0xe000020b)]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_07B0]
+>>>  Section start 2021/05/26 20:47:53.189
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\vmxnet3\Win8\vmxnet3.inf
+     ndv: Install flags: 0x00000001
+!    ndv: Unable to find any matching devices.
+<<<  Section end 2021/05/26 20:47:53.206
+<<<  [Exit status: FAILURE(0xe000020b)]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf]
+>>>  Section start 2021/05/26 20:47:53.736
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf} 20:47:53.736
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {4D36E97B-E325-11CE-BFC1-08002BE10318}
+     inf:      Driver Version: 04/06/2018,1.3.10.0
+     inf:      Catalog File: pvscsi.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:53.751
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:53.751
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf} 20:47:53.751
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf} 20:47:53.767
+     inf:                Driver package 'pvscsi.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:53.783
+     flq:           {FILE_QUEUE_COMMIT} 20:47:53.783
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.cat' to 'C:\Windows\System32\DriverStore\Temp\{f63f5420-6c80-de4b-8a85-6c589b32e7ea}\pvscsi.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf' to 'C:\Windows\System32\DriverStore\Temp\{f63f5420-6c80-de4b-8a85-6c589b32e7ea}\pvscsi.inf'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.sys' to 'C:\Windows\System32\DriverStore\Temp\{f63f5420-6c80-de4b-8a85-6c589b32e7ea}\pvscsi.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:53.815
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:53.815
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:53.830
+     sig:                     Key      = pvscsi.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{f63f5420-6c80-de4b-8a85-6c589b32e7ea}\pvscsi.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{f63f5420-6c80-de4b-8a85-6c589b32e7ea}\pvscsi.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:47:53.845
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:47:53.845
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30099670_14405052434069457_1152921504627612589
+     sto:           {Core Driver Package Import: pvscsi.inf_amd64_aba3f52c6f8a818c} 20:47:53.845
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:47:53.845
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:47:53.845
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{f63f5420-6c80-de4b-8a85-6c589b32e7ea}} 20:47:53.845
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\pvscsi.inf_amd64_aba3f52c6f8a818c
+     cpy:                {Copy Directory: exit(0x00000000)} 20:47:53.861
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\pvscsi.inf_amd64_aba3f52c6f8a818c\pvscsi.inf} 20:47:53.861
+     idb:                     Created driver package object 'pvscsi.inf_amd64_aba3f52c6f8a818c' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem5.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'pvscsi.inf_amd64_aba3f52c6f8a818c' with 'oem5.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:47:53.861
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\pvscsi.inf_amd64_aba3f52c6f8a818c\pvscsi.inf} 20:47:53.861
+     idb:                     Activating driver package 'pvscsi.inf_amd64_aba3f52c6f8a818c'.
+     cpy:                     Published 'pvscsi.inf_amd64_aba3f52c6f8a818c\pvscsi.inf' to 'oem5.inf'.
+     idb:                     Indexed 2 device IDs for 'pvscsi.inf_amd64_aba3f52c6f8a818c'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:47:53.876
+     sto:                {DRIVERSTORE IMPORT END} 20:47:53.876
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'pvscsi.cat' as 'oem5.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:47:53.892
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:47:53.892
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:47:53.892
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:47:53.939
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\pvscsi.inf_amd64_aba3f52c6f8a818c\pvscsi.inf
+     inf: Published Inf Path: C:\Windows\INF\oem5.inf
+<<<  Section end 2021/05/26 20:47:53.939
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_07C0&SUBSYS_07C015AD]
+>>>  Section start 2021/05/26 20:47:53.939
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf
+     ndv: Install flags: 0x00000001
+!    ndv: Unable to find any matching devices.
+<<<  Section end 2021/05/26 20:47:53.956
+<<<  [Exit status: FAILURE(0xe000020b)]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_07C0]
+>>>  Section start 2021/05/26 20:47:53.956
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\pvscsi\Win8\pvscsi.inf
+     ndv: Install flags: 0x00000001
+!    ndv: Unable to find any matching devices.
+<<<  Section end 2021/05/26 20:47:53.972
+<<<  [Exit status: FAILURE(0xe000020b)]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf]
+>>>  Section start 2021/05/26 20:47:54.470
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf} 20:47:54.470
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {4D36E96F-E325-11CE-BFC1-08002BE10318}
+     inf:      Driver Version: 12/18/2015,12.5.7.0
+     inf:      Catalog File: vmusbmouse.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:54.486
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:54.486
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf} 20:47:54.501
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf} 20:47:54.501
+     inf:                Driver package 'vmusbmouse.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:54.517
+     flq:           {FILE_QUEUE_COMMIT} 20:47:54.517
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.cat' to 'C:\Windows\System32\DriverStore\Temp\{1b8c78e2-708c-304b-98f0-6a11b053764c}\vmusbmouse.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf' to 'C:\Windows\System32\DriverStore\Temp\{1b8c78e2-708c-304b-98f0-6a11b053764c}\vmusbmouse.inf'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.sys' to 'C:\Windows\System32\DriverStore\Temp\{1b8c78e2-708c-304b-98f0-6a11b053764c}\vmusbmouse.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:54.564
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:54.564
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:54.595
+     sig:                     Key      = vmusbmouse.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{1b8c78e2-708c-304b-98f0-6a11b053764c}\vmusbmouse.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{1b8c78e2-708c-304b-98f0-6a11b053764c}\vmusbmouse.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:47:54.595
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:47:54.595
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 1818146
+     sto:           {Core Driver Package Import: vmusbmouse.inf_amd64_b47444d422028d98} 20:47:54.611
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:47:54.611
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:47:54.611
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{1b8c78e2-708c-304b-98f0-6a11b053764c}} 20:47:54.611
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98
+     cpy:                {Copy Directory: exit(0x00000000)} 20:47:54.611
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.inf} 20:47:54.611
+     idb:                     Created driver package object 'vmusbmouse.inf_amd64_b47444d422028d98' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem6.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'vmusbmouse.inf_amd64_b47444d422028d98' with 'oem6.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:47:54.626
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.inf} 20:47:54.626
+     idb:                     Activating driver package 'vmusbmouse.inf_amd64_b47444d422028d98'.
+     cpy:                     Published 'vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.inf' to 'oem6.inf'.
+     idb:                     Indexed 3 device IDs for 'vmusbmouse.inf_amd64_b47444d422028d98'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:47:54.626
+     sto:                {DRIVERSTORE IMPORT END} 20:47:54.642
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'vmusbmouse.cat' as 'oem6.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:47:54.642
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:47:54.642
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:47:54.658
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:47:54.706
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.inf
+     inf: Published Inf Path: C:\Windows\INF\oem6.inf
+<<<  Section end 2021/05/26 20:47:54.706
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - HID\VID_0E0F&PID_0003&MI_00]
+>>>  Section start 2021/05/26 20:47:54.706
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmusbmouse.inf'
+     dvi:      {Build Driver List} 20:47:54.722
+     dvi:           Searching for hardware ID(s):
+     dvi:                hid\vid_0e0f&pid_0003&rev_0102&mi_00
+     dvi:                hid\vid_0e0f&pid_0003&mi_00
+     dvi:                hid\vid_0e0f&up:0001_u:0002
+     dvi:                hid_device_system_mouse
+     dvi:                hid_device_up:0001_u:0002
+     dvi:                hid_device
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - HID\VID_0E0F&PID_0003&MI_00
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\mouse\win8\vmusbmouse.inf
+     dvi:                DevDesc      - VMware USB Pointing Device
+     dvi:                Section      - VMUsbMouse
+     dvi:                Rank         - 0x00ff0001
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 12/18/2015
+     dvi:                Version      - 12.5.7.0
+     dvi:      {Build Driver List - exit(0x00000000)} 20:47:54.736
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 20:47:54.736
+     dvi:           Default installer: Enter 20:47:54.736
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e96f-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - VMware USB Pointing Device
+     dvi:                          InfFile     - c:\program files\common files\vmware\drivers\mouse\win8\vmusbmouse.inf
+     dvi:                          Section     - VMUsbMouse
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:47:54.751
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - vmusbmouse.inf
+     ndv:           Driver Date    - 12/18/2015
+     ndv:           Driver Version - 12.5.7.0
+     ndv:      Driver package 'C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\program files\common files\vmware\drivers\mouse\win8\vmusbmouse.inf} 20:47:54.751
+     sto:           Driver package already imported as 'oem6.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 20:47:54.751
+     dvi:      Searching for hardware ID(s):
+     dvi:           hid\vid_0e0f&pid_0003&rev_0102&mi_00
+     dvi:           hid\vid_0e0f&pid_0003&mi_00
+     dvi:           hid\vid_0e0f&up:0001_u:0002
+     dvi:           hid_device_system_mouse
+     dvi:           hid_device_up:0001_u:0002
+     dvi:           hid_device
+     dvi:      Class GUID of device changed to: {4d36e96f-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000}
+     dvi:           {Core Device Install} 20:47:54.783
+     dvi:                {Configure Device - HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000} 20:47:54.783
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: USB\VID_0E0F&PID_0003&MI_00\7&1ffda586&0&0000
+     sto:                     {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.inf}
+     sto:                          Source Filter  = hid\vid_0e0f&pid_0003&mi_00
+     inf:                          Class GUID     = {4d36e96f-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: VMware USB Pointing Device}
+     inf:                               Section Name = VMUsbMouse
+     inf:                               {Add Service: vmusbmouse}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\vmusbmouse.sys
+     inf:                                    Display Name  = VMware USB Pointing Device
+     inf:                                    Group         = Pointer Port
+     inf:                                    Created new service 'vmusbmouse'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: mouhid}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\mouhid.sys
+     inf:                                    Display Name  = 마우스 HID 드라이버
+     inf:                                    Updated service 'mouhid'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: mouclass}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\mouclass.sys
+     inf:                                    Display Name  = 마우스 클래스 드라이버
+     inf:                                    Updated service 'mouclass'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = HID\VID_0E0F&PID_0003&MI_00
+     inf:                               {Configure Driver Configuration: VMUsbMouse}
+     inf:                                    Service Name  = mouhid
+     inf:                                    Upper Filters = VMUsbMouse
+     inf:                                    Included INFs = msmouse.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:47:54.845
+     flq:                               Copying 'C:\Windows\System32\DriverStore\FileRepository\vmusbmouse.inf_amd64_b47444d422028d98\vmusbmouse.sys' to 'C:\Windows\System32\drivers\vmusbmouse.sys'.
+     flq:                               Hardlinking 'C:\Windows\System32\DriverStore\FileRepository\msmouse.inf_amd64_1793a485b491b199\mouhid.sys' to 'C:\Windows\System32\drivers\mouhid.sys'.
+     cpy:                               Existing file 'C:\Windows\System32\drivers\mouhid.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\Windows\System32\DriverStore\FileRepository\msmouse.inf_amd64_1793a485b491b199\mouclass.sys' to 'C:\Windows\System32\drivers\mouclass.sys'.
+     cpy:                               Existing file 'C:\Windows\System32\drivers\mouclass.sys' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:54.861
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 20:47:54.876
+     dvi:                          Configuration: oem6.inf:hid\vid_0e0f&pid_0003&mi_00,VMUsbMouse
+     dvi:                     Install Device: Configuring device completed. 20:47:54.876
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     {Restarting Devices} 20:47:54.876
+     dvi:                          Query-remove: HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000
+     dvi:                          Query-remove: HID\VID_0E0F&PID_0003&MI_01\8&3608022B&0&0000
+     dvi:                          Start: HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000
+     dvi:                          Start: HID\VID_0E0F&PID_0003&MI_01\8&3608022B&0&0000
+     dvi:                          Restart verified: HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000
+     dvi:                          Restart verified: HID\VID_0E0F&PID_0003&MI_01\8&3608022B&0&0000
+     dvi:                     {Restarting Devices exit} 20:47:54.986
+     dvi:                {Configure Device - exit(0x00000000)} 20:47:54.986
+     dvi:           {Core Device Install - exit(0x00000000)} 20:47:55.001
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 20:47:55.001
+     ndv: {Install Related Drivers: exit(0x00000000)} 20:47:55.001
+<<<  Section end 2021/05/26 20:47:55.017
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf]
+>>>  Section start 2021/05/26 20:47:55.829
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf} 20:47:55.829
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {4D36E96F-E325-11CE-BFC1-08002BE10318}
+     inf:      Driver Version: 12/18/2015,12.5.7.0
+     inf:      Catalog File: vmmouse.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:55.861
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:55.861
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf} 20:47:55.861
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf} 20:47:55.878
+     inf:                Driver package 'vmmouse.inf' is configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:55.878
+     flq:           {FILE_QUEUE_COMMIT} 20:47:55.878
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.cat' to 'C:\Windows\System32\DriverStore\Temp\{de9a2737-0c0f-054e-b751-5f24b914b282}\vmmouse.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf' to 'C:\Windows\System32\DriverStore\Temp\{de9a2737-0c0f-054e-b751-5f24b914b282}\vmmouse.inf'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.sys' to 'C:\Windows\System32\DriverStore\Temp\{de9a2737-0c0f-054e-b751-5f24b914b282}\vmmouse.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:55.923
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:55.923
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:55.939
+     sig:                     Key      = vmmouse.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{de9a2737-0c0f-054e-b751-5f24b914b282}\vmmouse.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{de9a2737-0c0f-054e-b751-5f24b914b282}\vmmouse.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:47:55.955
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:47:55.955
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 1817729
+     sto:           {Core Driver Package Import: vmmouse.inf_amd64_31990a165ac530d5} 20:47:55.955
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:47:55.955
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:47:55.955
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{de9a2737-0c0f-054e-b751-5f24b914b282}} 20:47:55.955
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5
+     cpy:                {Copy Directory: exit(0x00000000)} 20:47:55.955
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5\vmmouse.inf} 20:47:55.955
+     idb:                     Created driver package object 'vmmouse.inf_amd64_31990a165ac530d5' in SYSTEM database node.
+     idb:                     Created driver INF file object 'oem7.inf' in SYSTEM database node.
+     idb:                     Registered driver package 'vmmouse.inf_amd64_31990a165ac530d5' with 'oem7.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:47:55.970
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5\vmmouse.inf} 20:47:55.970
+     idb:                     Activating driver package 'vmmouse.inf_amd64_31990a165ac530d5'.
+     cpy:                     Published 'vmmouse.inf_amd64_31990a165ac530d5\vmmouse.inf' to 'oem7.inf'.
+!    idb:                     Driver INF match for 'oem7.inf' already exists under '*VMW0003'.
+     idb:                     Indexed 5 device IDs for 'vmmouse.inf_amd64_31990a165ac530d5'.
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:47:55.970
+     sto:                {DRIVERSTORE IMPORT END} 20:47:55.986
+     dvi:                     Flushed all driver package files to disk. Time = 0 ms
+     sig:                     Installed catalog 'vmmouse.cat' as 'oem7.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:47:55.986
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:47:55.986
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:47:55.986
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:47:56.048
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5\vmmouse.inf
+     inf: Published Inf Path: C:\Windows\INF\oem7.inf
+<<<  Section end 2021/05/26 20:47:56.048
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - *VMW0003]
+>>>  Section start 2021/05/26 20:47:56.048
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - ACPI\VMW0003\4&1BD7F811&0}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Program Files\Common Files\VMware\Drivers\mouse\Win8\vmmouse.inf'
+     dvi:      {Build Driver List} 20:47:56.065
+     dvi:           Searching for hardware ID(s):
+     dvi:                acpi\ven_vmw&dev_0003
+     dvi:                acpi\vmw0003
+     dvi:                *vmw0003
+     dvi:           Searching for compatible ID(s):
+     dvi:                *pnp0f13
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - *VMW0003
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\mouse\win8\vmmouse.inf
+     dvi:                DevDesc      - VMware Pointing Device
+     dvi:                Section      - VMMouse
+     dvi:                Rank         - 0x00fe0002
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 12/18/2015
+     dvi:                Version      - 12.5.7.0
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - *VMW0003
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\mouse\win8\vmmouse.inf
+     dvi:                DevDesc      - VMware Pointing Device
+     dvi:                Section      - VMMouse
+     dvi:                Rank         - 0x00fe0002
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 12/18/2015
+     dvi:                Version      - 12.5.7.0
+     dvi:      {Build Driver List - exit(0x00000000)} 20:47:56.079
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 20:47:56.079
+     dvi:           Default installer: Enter 20:47:56.079
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e96f-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - VMware Pointing Device
+     dvi:                          InfFile     - c:\program files\common files\vmware\drivers\mouse\win8\vmmouse.inf
+     dvi:                          Section     - VMMouse
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:47:56.079
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - vmmouse.inf
+     ndv:           Driver Date    - 12/18/2015
+     ndv:           Driver Version - 12.5.7.0
+     ndv:      Driver package 'C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5\vmmouse.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\program files\common files\vmware\drivers\mouse\win8\vmmouse.inf} 20:47:56.079
+     sto:           Driver package already imported as 'oem7.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 20:47:56.095
+     dvi:      Searching for hardware ID(s):
+     dvi:           acpi\ven_vmw&dev_0003
+     dvi:           acpi\vmw0003
+     dvi:           *vmw0003
+     dvi:      Searching for compatible ID(s):
+     dvi:           *pnp0f13
+     dvi:      Class GUID of device changed to: {4d36e96f-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for ACPI\VMW0003\4&1BD7F811&0}
+     dvi:           {Core Device Install} 20:47:56.127
+     dvi:                {Configure Device - ACPI\VMW0003\4&1BD7F811&0} 20:47:56.127
+     dvi:                     Device Status: 0x0180000a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: PCI\VEN_8086&DEV_7110&SUBSYS_197615AD&REV_08\3&61aaa01&0&38
+     sto:                     {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5\vmmouse.inf}
+     sto:                          Source Filter  = *vmw0003
+     inf:                          Class GUID     = {4d36e96f-e325-11ce-bfc1-08002be10318}
+     inf:                          Class Options  = Configurable BootCritical
+     inf:                          {Configure Driver: VMware Pointing Device}
+     inf:                               Section Name = VMMouse
+     inf:                               {Add Service: vmmouse}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 0
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\vmmouse.sys
+     inf:                                    Display Name  = VMware Pointing Device
+     inf:                                    Group         = Pointer Port
+     inf:                                    Created new service 'vmmouse'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: mouclass}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\mouclass.sys
+     inf:                                    Display Name  = 마우스 클래스 드라이버
+     inf:                                    Updated service 'mouclass'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               {Add Service: i8042prt}
+     inf:                                    Start Type    = 3
+     inf:                                    Service Type  = 1
+     inf:                                    Error Control = 1
+     inf:                                    Image Path    = \SystemRoot\System32\drivers\i8042prt.sys
+     inf:                                    Display Name  = PS/2 키보드 및 마우스 포트 드라이버
+     inf:                                    Group         = Keyboard Port
+     inf:                                    Updated service 'i8042prt'.
+     inf:                               {Add Service: exit(0x00000000)}
+     inf:                               Hardware Id  = *VMW0003
+     inf:                               Compatible Id = *PNP0F03
+     inf:                               {Configure Driver Configuration: VMMouse}
+     inf:                                    Service Name  = i8042prt
+     inf:                                    Upper Filters = VMMouse
+     inf:                                    Included INFs = msmouse.inf
+     inf:                                                    keyboard.inf
+     inf:                                    Config Flags  = 0x00000000
+     inf:                               {Configure Driver Configuration: exit(0x00000000)}
+     inf:                          {Configure Driver: exit(0x00000000)}
+     inf:                          {Configure Driver: VMware Pointing Device}
+     inf:                               Section Name = VMMouse
+     inf:                               Hardware Id  = *VMW0003
+     inf:                               Compatible Id = *PNP0F13
+     inf:                          {Configure Driver: exit(0x00000000)}
+     flq:                          {FILE_QUEUE_COMMIT} 20:47:56.189
+     flq:                               Copying 'C:\Windows\System32\DriverStore\FileRepository\vmmouse.inf_amd64_31990a165ac530d5\vmmouse.sys' to 'C:\Windows\System32\drivers\vmmouse.sys'.
+     flq:                               Hardlinking 'C:\Windows\System32\DriverStore\FileRepository\msmouse.inf_amd64_1793a485b491b199\mouclass.sys' to 'C:\Windows\System32\drivers\mouclass.sys'.
+     cpy:                               Existing file 'C:\Windows\System32\drivers\mouclass.sys' remains unchanged.
+     flq:                               Hardlinking 'C:\Windows\System32\DriverStore\FileRepository\keyboard.inf_amd64_5938c699b80ebb8f\i8042prt.sys' to 'C:\Windows\System32\drivers\i8042prt.sys'.
+     cpy:                               Existing file 'C:\Windows\System32\drivers\i8042prt.sys' remains unchanged.
+     flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:56.204
+     dvi:                          Existing files modified, may need to restart related services.
+     sto:                     {Configure Driver Package: exit(0x00000bc3)}
+     dvi:                     Restart required for any devices using this driver.
+     dvi:                     Install Device: Configuring device. 20:47:56.204
+     dvi:                          Configuration: oem7.inf:*vmw0003,VMMouse
+     dvi:                     Install Device: Configuring device completed. 20:47:56.204
+     dvi:                     Device Status: 0x0180000a
+     dvi:                     {Restarting Devices} 20:47:56.204
+     dvi:                          Query-remove: ACPI\VMW0003\4&1BD7F811&0
+!    dvi:                          Query-removal vetoed by 'ACPI\VMW0003\4&1bd7f811&0' (veto type 6: PNP_VetoDevice).
+!    dvi:                          Device required reboot: Query remove failed : 0x17: CR_REMOVE_VETOED.
+     dvi:                          Query-remove: ACPI\PNP0303\4&1BD7F811&0
+!    dvi:                          Query-removal vetoed by 'ACPI\PNP0303\4&1bd7f811&0' (veto type 6: PNP_VetoDevice).
+!    dvi:                          Device required reboot: Query remove failed : 0x17: CR_REMOVE_VETOED.
+     dvi:                          Start: ACPI\VMW0003\4&1BD7F811&0
+     dvi:                          Start: ACPI\PNP0303\4&1BD7F811&0
+     dvi:                     {Restarting Devices exit} 20:47:56.267
+     dvi:                {Configure Device - exit(0x00000000)} 20:47:56.267
+     dvi:           {Core Device Install - exit(0x00000000)} 20:47:56.267
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 20:47:56.267
+     ndv: {Install Related Drivers: exit(0x00000000)} 20:47:56.267
+!    ndv: Reboot needed to complete driver update.
+<<<  Section end 2021/05/26 20:47:56.283
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [SetupCopyOEMInf - C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf]
+>>>  Section start 2021/05/26 20:47:58.643
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     inf: Copy style: 0x00000000
+     sto: {Setup Import Driver Package: C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf} 20:47:58.643
+     inf:      Provider: VMware, Inc.
+     inf:      Class GUID: {4D36E968-E325-11CE-BFC1-08002BE10318}
+     inf:      Driver Version: 07/26/2018,8.16.01.0001
+     inf:      Catalog File: vm3d.cat
+     ump:      Import flags: 0x00000001
+     pol:      {Driver package policy check} 20:47:58.674
+     pol:      {Driver package policy check - exit(0x00000000)} 20:47:58.674
+     sto:      {Stage Driver Package: C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf} 20:47:58.674
+     inf:           {Query Configurability: C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf} 20:47:58.674
+!    inf:                Legacy directive 'RegisterDlls' will be ignored. Code = 2009, Line = 94
+!    inf:                Found legacy RegisterDlls operation. Code = 1300
+!    inf:                Driver package 'vm3d.inf' is NOT configurable.
+     inf:           {Query Configurability: exit(0x00000000)} 20:47:58.689
+     flq:           {FILE_QUEUE_COMMIT} 20:47:58.689
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum-debug.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum-debug.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dmp-debug.sys' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dmp-debug.sys'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dgl64.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dgl64.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum-stats.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum-stats.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dglhelper.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dglhelper.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dmp-stats.sys' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dmp-stats.sys'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64-debug.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64-debug.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum_10.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum_10.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64-stats.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64-stats.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum_loader.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum_loader.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dglhelper64.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dglhelper64.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum_10-debug.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum_10-debug.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dmp_loader.sys' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dmp_loader.sys'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.cat' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3d.cat'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3d.inf'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum_10-stats.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum_10-stats.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64_10.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64_10.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64_loader.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64_loader.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64_10-debug.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64_10-debug.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum64_10-stats.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum64_10-stats.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3ddevapi.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3ddevapi.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dgl.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dgl.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dum.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dum.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3ddevapi64.dll' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3ddevapi64.dll'.
+     flq:                Copying 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3dmp.sys' to 'C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3dmp.sys'.
+     flq:           {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:47:59.955
+     sto:           {DRIVERSTORE IMPORT VALIDATE} 20:47:59.955
+     sig:                Driver package catalog is valid.
+     sig:                {_VERIFY_FILE_SIGNATURE} 20:47:59.986
+     sig:                     Key      = vm3d.inf
+     sig:                     FilePath = C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3d.inf
+     sig:                     Catalog  = C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}\vm3d.cat
+     sig:                     Success: File is signed in catalog.
+     sig:                {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 20:48:00.001
+     sto:           {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 20:48:00.377
+     sig:           Signer Score  = 0x0D000005 (WHQL)
+     sig:           Signer Name   = Microsoft Windows Hardware Compatibility Publisher
+     sig:           Submission ID = 30099670_14328877711517652_1152921504627769575
+     sto:           {Core Driver Package Import: vm3d.inf_amd64_a5f9f0b8f4185cea} 20:48:00.392
+     sto:                {DRIVERSTORE IMPORT BEGIN} 20:48:00.392
+     sto:                {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 20:48:00.392
+     cpy:                {Copy Directory: C:\Windows\System32\DriverStore\Temp\{95aae356-bf4e-334d-9dfb-5937f21f845d}} 20:48:00.392
+     cpy:                     Target Path = C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea
+     cpy:                {Copy Directory: exit(0x00000000)} 20:48:00.408
+     idb:                {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3d.inf} 20:48:00.408
+     idb:                     Created driver package object 'vm3d.inf_amd64_a5f9f0b8f4185cea' in DRIVERS database node.
+     idb:                     Created driver INF file object 'oem8.inf' in DRIVERS database node.
+     idb:                     Registered driver package 'vm3d.inf_amd64_a5f9f0b8f4185cea' with 'oem8.inf'.
+     idb:                {Register Driver Package: exit(0x00000000)} 20:48:00.423
+     idb:                {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3d.inf} 20:48:00.423
+     idb:                     Activating driver package 'vm3d.inf_amd64_a5f9f0b8f4185cea'.
+     cpy:                     Published 'vm3d.inf_amd64_a5f9f0b8f4185cea\vm3d.inf' to 'oem8.inf'.
+!    inf:                     Legacy directive 'RegisterDlls' will be ignored. Code = 2009, Line = 94
+     idb:                     Indexed 3 device IDs for 'vm3d.inf_amd64_a5f9f0b8f4185cea'.
+     sto:                     Flushed driver database node 'DRIVERS'. Time = 16 ms
+     sto:                     Flushed driver database node 'SYSTEM'. Time = 0 ms
+     idb:                {Publish Driver Package: exit(0x00000000)} 20:48:00.439
+     sto:                {DRIVERSTORE IMPORT END} 20:48:00.454
+     dvi:                     Flushed all driver package files to disk. Time = 110 ms
+     sig:                     Installed catalog 'vm3d.cat' as 'oem8.cat'.
+     sto:                {DRIVERSTORE IMPORT END: exit(0x00000000)} 20:48:00.579
+     sto:           {Core Driver Package Import: exit(0x00000000)} 20:48:00.579
+     sto:      {Stage Driver Package: exit(0x00000000)} 20:48:00.595
+     sto: {Setup Import Driver Package - exit (0x00000000)} 20:48:00.673
+     inf: Driver Store Path: C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3d.inf
+     inf: Published Inf Path: C:\Windows\INF\oem8.inf
+<<<  Section end 2021/05/26 20:48:00.673
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (UpdateDriverForPlugAndPlayDevices) - PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00]
+>>>  Section start 2021/05/26 20:48:00.673
+      cmd: C:\Windows\System32\MsiExec.exe -Embedding 62305FB82181B735A7C2B58EDD98AEA8 E Global\MSI0000
+     ndv: INF path: C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf
+     ndv: Install flags: 0x00000001
+     ndv: {Update Device Driver - PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78}
+     ndv:      Search options: 0x00000080
+     ndv:      Searching single INF 'C:\Program Files\Common Files\VMware\Drivers\video_wddm\Vista\vm3d.inf'
+     dvi:      {Build Driver List} 20:48:00.689
+     dvi:           Searching for hardware ID(s):
+     dvi:                pci\ven_15ad&dev_0405&subsys_040515ad&rev_00
+     dvi:                pci\ven_15ad&dev_0405&subsys_040515ad
+     dvi:                pci\ven_15ad&dev_0405&cc_030000
+     dvi:                pci\ven_15ad&dev_0405&cc_0300
+     dvi:           Searching for compatible ID(s):
+     dvi:                pci\ven_15ad&dev_0405&rev_00
+     dvi:                pci\ven_15ad&dev_0405
+     dvi:                pci\ven_15ad&cc_030000
+     dvi:                pci\ven_15ad&cc_0300
+     dvi:                pci\ven_15ad
+     dvi:                pci\cc_030000
+     dvi:                pci\cc_0300
+     dvi:           Created Driver Node:
+     dvi:                HardwareID   - PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00
+     dvi:                InfName      - c:\program files\common files\vmware\drivers\video_wddm\vista\vm3d.inf
+     dvi:                DevDesc      - VMware SVGA 3D
+     dvi:                Section      - VM3D_AMD64
+     dvi:                Rank         - 0x00f60000
+     dvi:                Signer Score - WHQL
+     dvi:                DrvDate      - 07/26/2018
+     dvi:                Version      - 8.16.1.1
+     dvi:      {Build Driver List - exit(0x00000000)} 20:48:00.720
+     dvi:      {DIF_SELECTBESTCOMPATDRV} 20:48:00.720
+     dvi:           Default installer: Enter 20:48:00.720
+     dvi:                {Select Best Driver}
+     dvi:                     Class GUID of device changed to: {4d36e968-e325-11ce-bfc1-08002be10318}.
+     dvi:                     Selected Driver:
+     dvi:                          Description - VMware SVGA 3D
+     dvi:                          InfFile     - c:\program files\common files\vmware\drivers\video_wddm\vista\vm3d.inf
+     dvi:                          Section     - VM3D_AMD64
+     dvi:                {Select Best Driver - exit(0x00000000)}
+     dvi:           Default installer: Exit
+     dvi:      {DIF_SELECTBESTCOMPATDRV - exit(0x00000000)} 20:48:00.720
+     ndv:      Force Installing Driver:
+     ndv:           Inf Name       - vm3d.inf
+     ndv:           Driver Date    - 07/26/2018
+     ndv:           Driver Version - 8.16.1.1
+     ndv:      Driver package 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3d.inf' is already imported.
+     sto:      {Setup Import Driver Package: c:\program files\common files\vmware\drivers\video_wddm\vista\vm3d.inf} 20:48:00.736
+     sto:           Driver package already imported as 'oem8.inf'.
+     sto:      {Setup Import Driver Package - exit (0x00000000)} 20:48:00.736
+     dvi:      Searching for hardware ID(s):
+     dvi:           pci\ven_15ad&dev_0405&subsys_040515ad&rev_00
+     dvi:           pci\ven_15ad&dev_0405&subsys_040515ad
+     dvi:           pci\ven_15ad&dev_0405&cc_030000
+     dvi:           pci\ven_15ad&dev_0405&cc_0300
+     dvi:      Searching for compatible ID(s):
+     dvi:           pci\ven_15ad&dev_0405&rev_00
+     dvi:           pci\ven_15ad&dev_0405
+     dvi:           pci\ven_15ad&cc_030000
+     dvi:           pci\ven_15ad&cc_0300
+     dvi:           pci\ven_15ad
+     dvi:           pci\cc_030000
+     dvi:           pci\cc_0300
+     dvi:      Class GUID of device changed to: {4d36e968-e325-11ce-bfc1-08002be10318}.
+     ump:      {Plug and Play Service: Device Install for PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78}
+     dvi:           Searching for hardware ID(s):
+     dvi:                pci\ven_15ad&dev_0405&subsys_040515ad&rev_00
+     dvi:                pci\ven_15ad&dev_0405&subsys_040515ad
+     dvi:                pci\ven_15ad&dev_0405&cc_030000
+     dvi:                pci\ven_15ad&dev_0405&cc_0300
+     dvi:           Searching for compatible ID(s):
+     dvi:                pci\ven_15ad&dev_0405&rev_00
+     dvi:                pci\ven_15ad&dev_0405
+     dvi:                pci\ven_15ad&cc_030000
+     dvi:                pci\ven_15ad&cc_0300
+     dvi:                pci\ven_15ad
+     dvi:                pci\cc_030000
+     dvi:                pci\cc_0300
+     dvi:           Class GUID of device changed to: {4d36e968-e325-11ce-bfc1-08002be10318}.
+     ndv:           {Core Device Install} 20:48:00.800
+     dvi:                {Install Device - PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78} 20:48:00.864
+     dvi:                     Device Status: 0x0180200a
+     dvi:                     Config Flags: 0x00000000
+     dvi:                     Parent Device: ACPI\PNP0A03\2&daba3ff&0
+     dvi:                     {DIF_ALLOW_INSTALL} 20:48:00.864
+     dvi:                          Default installer: Enter 20:48:00.864
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_ALLOW_INSTALL - exit(0xe000020e)} 20:48:00.864
+     dvi:                     {DIF_INSTALLDEVICEFILES} 20:48:00.876
+     dvi:                          Default installer: Enter 20:48:00.876
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLDEVICEFILES - exit(0x00000000)} 20:48:00.892
+     dvi:                     {_SCAN_FILE_QUEUE} 20:48:00.892
+     dvi:                     {_SCAN_FILE_QUEUE - exit(0x00000000)} 20:48:00.892
+     flq:                     {FILE_QUEUE_COMMIT} 20:48:00.892
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dmp.sys' to 'C:\Windows\system32\DRIVERS\vm3dmp.sys'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dmp-debug.sys' to 'C:\Windows\system32\DRIVERS\vm3dmp-debug.sys'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dmp-stats.sys' to 'C:\Windows\system32\DRIVERS\vm3dmp-stats.sys'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dmp_loader.sys' to 'C:\Windows\system32\DRIVERS\vm3dmp_loader.sys'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64.dll' to 'C:\Windows\system32\vm3dum64.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64-debug.dll' to 'C:\Windows\system32\vm3dum64-debug.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64-stats.dll' to 'C:\Windows\system32\vm3dum64-stats.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64_10.dll' to 'C:\Windows\system32\vm3dum64_10.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64_10-debug.dll' to 'C:\Windows\system32\vm3dum64_10-debug.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64_10-stats.dll' to 'C:\Windows\system32\vm3dum64_10-stats.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum64_loader.dll' to 'C:\Windows\system32\vm3dum64_loader.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3ddevapi64.dll' to 'C:\Windows\system32\vm3ddevapi64.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dgl64.dll' to 'C:\Windows\system32\vm3dgl64.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dglhelper64.dll' to 'C:\Windows\system32\vm3dglhelper64.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum.dll' to 'C:\Windows\SysWOW64\vm3dum.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum-debug.dll' to 'C:\Windows\SysWOW64\vm3dum-debug.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum-stats.dll' to 'C:\Windows\SysWOW64\vm3dum-stats.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum_10.dll' to 'C:\Windows\SysWOW64\vm3dum_10.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum_10-debug.dll' to 'C:\Windows\SysWOW64\vm3dum_10-debug.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum_10-stats.dll' to 'C:\Windows\SysWOW64\vm3dum_10-stats.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dum_loader.dll' to 'C:\Windows\SysWOW64\vm3dum_loader.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3ddevapi.dll' to 'C:\Windows\SysWOW64\vm3ddevapi.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dgl.dll' to 'C:\Windows\SysWOW64\vm3dgl.dll'.
+     flq:                          Copying 'C:\Windows\System32\DriverStore\FileRepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3dglhelper.dll' to 'C:\Windows\SysWOW64\vm3dglhelper.dll'.
+     flq:                     {FILE_QUEUE_COMMIT - exit(0x00000000)} 20:48:01.533
+     dvi:                     {_SCAN_FILE_QUEUE} 20:48:01.533
+     dvi:                     {_SCAN_FILE_QUEUE - exit(0x00000000)} 20:48:01.533
+     dvi:                     {DIF_REGISTER_COINSTALLERS} 20:48:01.533
+     dvi:                          Reset Device: Resetting device configuration. 20:48:01.533
+     dvi:                          Reset Device: Resetting device configuration completed. 20:48:01.533
+     dvi:                          Default installer: Enter 20:48:01.533
+     inf:                               {Install from INF Section - VM3D_AMD64.CoInstallers} 20:48:01.533
+     inf:                                    Flags         - 0x001001ee
+     inf:                               {Install from INF Section - exit(0x00000000)} 20:48:01.548
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_REGISTER_COINSTALLERS - exit(0x00000000)} 20:48:01.548
+     dvi:                     {DIF_INSTALLINTERFACES} 20:48:01.548
+     dvi:                          Default installer: Enter 20:48:01.548
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLINTERFACES - exit(0x00000000)} 20:48:01.548
+     dvi:                     {DIF_INSTALLDEVICE} 20:48:01.548
+     dvi:                          Default installer: Enter 20:48:01.548
+     dvi:                               {Install DEVICE}
+     inf:                                    {Install from INF Section - VM3D_AMD64} 20:48:01.548
+     inf:                                         Flags         - 0x001005ee
+     inf:                                         Processing REGISTERDLLS section [VM3D_AMD64RegisterDlls]. Module: '%11%\vm3dum64_loader.dll', flags: 0x0000, timeout: 300s, Arguments: '(null)'.
+     inf:                                         Processing REGISTERDLLS section [VM3D_AMD64RegisterDlls]. Module: '%16425%\vm3dum_loader.dll', flags: 0x0000, timeout: 300s, Arguments: '(null)'.
+     inf:                                    {Install from INF Section - exit(0x00000000)} 20:48:01.611
+     dvi:                                    {Writing Device Properties}
+     dvi:                                         Strong Name=oem8.inf:fc9f1aa2fe8e5883:VM3D_AMD64:8.16.1.1:pci\ven_15ad&dev_0405&subsys_040515ad&rev_00
+     dvi:                                    {Writing Device Properties - Complete}
+     inf:                                    AddService=vm3dmp,0x00000000,VM3D_Service_Inst  (vm3d.inf line 145)
+     dvi:                                    Add Service: Created service 'vm3dmp'.
+     inf:                                    {Install from INF Section - VM3D_Service_Inst} 20:48:01.627
+     inf:                                         Flags         - 0x00100004
+     inf:                                    {Install from INF Section - exit(0x00000000)} 20:48:01.627
+     inf:                                    AddService=vm3dmp-debug,0x00000000,VM3D_Service_Inst_Debug  (vm3d.inf line 146)
+     dvi:                                    Add Service: Created service 'vm3dmp-debug'.
+     inf:                                    {Install from INF Section - VM3D_Service_Inst_Debug} 20:48:01.627
+     inf:                                         Flags         - 0x00100004
+     inf:                                    {Install from INF Section - exit(0x00000000)} 20:48:01.627
+     inf:                                    AddService=vm3dmp-stats,0x00000000,VM3D_Service_Inst_Stats  (vm3d.inf line 147)
+     dvi:                                    Add Service: Created service 'vm3dmp-stats'.
+     inf:                                    {Install from INF Section - VM3D_Service_Inst_Stats} 20:48:01.642
+     inf:                                         Flags         - 0x00100004
+     inf:                                    {Install from INF Section - exit(0x00000000)} 20:48:01.642
+     inf:                                    AddService=vm3dmp_loader,0x00000002,VM3D_Loader_Service_Inst  (vm3d.inf line 148)
+     dvi:                                    Add Service: Created service 'vm3dmp_loader'.
+     inf:                                    {Install from INF Section - VM3D_Loader_Service_Inst} 20:48:01.642
+     inf:                                         Flags         - 0x00100004
+     inf:                                    {Install from INF Section - exit(0x00000000)} 20:48:01.642
+     dvi:                               {Install DEVICE exit (0x00000000)}
+     sto:                               {Configure Driver Package: c:\windows\system32\driverstore\filerepository\vm3d.inf_amd64_a5f9f0b8f4185cea\vm3d.inf}
+     sto:                                    Source Filter  = VM3D_AMD64
+     sto:                                    Target Filter  = PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78
+     inf:                                    Class GUID     = {4d36e968-e325-11ce-bfc1-08002be10318}
+     inf:                                    Class Options  = Configurable
+     inf:                                    {Configure Driver: VMware SVGA 3D}
+     inf:                                         Section Name = VM3D_AMD64
+     inf:                                         {Configure Device: PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78}
+     inf:                                         {Configure Device: exit(0x00000000)}
+     inf:                                    {Configure Driver: exit(0x00000000)}
+     inf:                                    {Configure Driver: VMware SVGA 3D}
+     inf:                                         Section Name = VM3D_AMD64
+     inf:                                    {Configure Driver: exit(0x00000000)}
+     sto:                               {Configure Driver Package: exit(0x00000000)}
+     dvi:                               Install Device: Configuring device class. 20:48:01.658
+     dvi:                               Install Device: Configuring device class completed. 20:48:01.673
+     dvi:                               Device Status: 0x0180200a
+     dvi:                               {Restarting Devices} 20:48:01.673
+     dvi:                                    Query-remove: PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78
+     dvi:                                    Start: PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78
+     dvi:                                    Restart verified: PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78
+     dvi:                               {Restarting Devices exit} 20:48:01.907
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_INSTALLDEVICE - exit(0x00000000)} 20:48:01.907
+     dvi:                     {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 20:48:01.986
+     dvi:                          Default installer: Enter 20:48:02.033
+     dvi:                          Default installer: Exit
+     dvi:                     {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0xe000020e)} 20:48:02.033
+     dvi:                {Install Device - exit(0x00000000)} 20:48:02.049
+     dvi:           {Core Device Install - exit(0x00000000)} 20:48:02.049
+     ump:      {Plug and Play Service: Device Install exit(00000000)}
+     ndv: {Update Device Driver - exit(00000000)}
+     ndv: {Install Related Drivers} 20:48:02.283
+     ndv: {Install Related Drivers: exit(0x00000000)} 20:48:02.283
+<<<  Section end 2021/05/26 20:48:02.283
+<<<  [Exit status: SUCCESS]
+
+
+[Boot Session: 2021/05/31 21:20:58.500]
+
+>>>  [Sysprep Respecialize - {1d344d56-1315-ba83-cbf9-cefd9ce8f73e}]
+>>>  Section start 2021/05/31 21:22:28.401
+     set: System Information:
+     set:      BIOS Release Date: 09/08/2017
+     set:      BIOS Vendor: VMware, Inc.
+     set:      BIOS Version: VMW71.00V.6571443.B64.1709080020
+     set:      System Manufacturer: VMware, Inc.
+     set:      System Product Name: VMware7,1
+     set:      System Version: None
+     set: {Device Install} 21:22:29.355
+     set:      Persisting installed devices.
+     set:      DeviceInstall service already running. 21:22:29.355
+     set:      Waiting for pending device installs... 21:22:29.355
+     set:      Completed pending device installs. 21:22:29.355
+     set:      ACPI\PNP0C02\4 -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+     set:      ACPI\ACPI0003\1 -> Configured [cmbatt.inf:ACPI\ACPI0003,AcAdapter_Inst] and started (ConfigFlags = 0x00000000).
+     set:      SWD\PRINTENUM\{2185F642-8CEF-4E73-84C4-CCDD51CF3E6B} -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\10 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\11 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\12 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\13 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\14 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\15 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\16 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\17 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\18 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\19 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\1A -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\1B -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\1C -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\1D -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\1E -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\1F -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\20 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\21 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\22 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\23 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\24 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\25 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\26 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\27 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\28 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\29 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\2A -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\2B -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\2C -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\2D -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\2E -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\2F -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\30 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\31 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\32 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\33 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\34 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\35 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\36 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\37 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\38 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\39 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\3A -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\3B -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\3C -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\3D -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\3E -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\3F -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\40 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\41 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\42 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\43 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\44 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\45 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\46 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\47 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\48 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\49 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4A -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4B -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4C -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4D -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4E -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4F -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\50 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\51 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\52 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\53 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\54 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\55 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\56 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\57 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_10D3&SUBSYS_07D015AD&REV_00\000C29FFFFC3ACA600 -> Configured [net1ic64.inf:PCI\VEN_8086&DEV_10D3,E10D3.10.0.1] and started (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_60_-_INTEL(R)_CORE(TM)_I7-4770_CPU_@_3.40GHZ\_0 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+!    set:      ACPI\GENUINEINTEL_-_INTEL64_FAMILY_6_MODEL_60_-_INTEL(R)_CORE(TM)_I7-4770_CPU_@_3.40GHZ\_1 -> Configured [cpu.inf:ACPI\GenuineIntel_-_Intel64,IntelPPM_Inst.NT] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_1000&DEV_0054&SUBSYS_197615AD&REV_01\4&2509F6E&0&00A8 -> Configured [lsi_sas.inf:PCI\VEN_1000&DEV_0054,LSI_SAS_Inst] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_7191&SUBSYS_00000000&REV_01\3&61AAA01&0&08 -> Configured [pci.inf:PCI\CC_0604,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      SWD\PRINTENUM\PRINTQUEUES -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07E0&SUBSYS_07E015AD&REV_00\4&BBF9765&0&2088 -> Configured [mshdc.inf:PCI\CC_010601,msahci_Inst] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\VOLMGR\0000 -> Configured [volmgr.inf:ROOT\VOLMGR,Volmgr] and started (ConfigFlags = 0x00000000).
+     set:      SWD\PRINTENUM\{6089CA64-F821-4BF0-9993-CB2211A8F013} -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and started (ConfigFlags = 0x00000000).
+     set:      DISPLAY\DEFAULT_MONITOR\4&427137E&0&UID0 -> Configured [monitor.inf:MONITOR\Default_Monitor,NonPnPMonitor.Install] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A03\2&DABA3FF&0 -> Configured [pci.inf:*PNP0A03,PCI_ROOT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\VMW0001\7 -> Configured [wgencounter.inf:VM_Gen_Counter,VmGenCounter.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\BASICDISPLAY\0000 -> Configured [basicdisplay.inf:ROOT\BasicDisplay,MSBDD_Fallback] and started (ConfigFlags = 0x00000000).
+     set:      USB\VID_0E0F&PID_0003&MI_00\7&1FFDA586&0&0000 -> Configured [input.inf:USB\Class_03,HID_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      STORAGE\VOLUME\{EE823261-BE16-11EB-92E4-806E6F6E6963}#0000000000100000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set:      STORAGE\VOLUME\{EE823261-BE16-11EB-92E4-806E6F6E6963}#0000000EDEA00000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set:      USB\ROOT_HUB30\5&20BE2FCD&0&0 -> Configured [usbhub3.inf:USB\ROOT_HUB30,Generic.Install.NT] and started (ConfigFlags = 0x00000000).
+     set:      SWD\PRINTENUM\{C3534496-726E-4194-B546-5C5B6000A272} -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0103\4&1BD7F811&0 -> Configured [machine.inf:*PNP0103,NO_DRV_HPET] (ConfigFlags = 0x00000000).
+     set:      ROOT\VID\0000 -> Configured [wvid.inf:ROOT\VID,Vid_Device_Client.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\COMPOSITEBUS\0000 -> Configured [compositebus.inf:ROOT\CompositeBus,CompositeBus_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\VDRVROOT\0000 -> Configured [vdrvroot.inf:ROOT\vdrvroot,VDRVROOT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\SPACEPORT\0000 -> Configured [spaceport.inf:Root\Spaceport,Spaceport_Install] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0B00\4&1BD7F811&0 -> Configured [machine.inf:*PNP0B00,NO_DRV_X] and started (ConfigFlags = 0x00000000).
+     set:      USB\VID_0E0F&PID_0002\6&30C8CA5F&0&7 -> Configured [usbhub3.inf:USB\USB20_HUB,Generic.Install.NT] and started (ConfigFlags = 0x00000000).
+     set:      USB\VID_0E0F&PID_0002\6&30C8CA5F&0&8 -> Configured [usbhub3.inf:USB\USB20_HUB,Generic.Install.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\KDNIC\0000 -> Configured [kdnic.inf:root\kdnic,KdNic.ndi] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0303\4&1BD7F811&0 -> Configured [keyboard.inf:*PNP0303,STANDARD_Inst] and started (ConfigFlags = 0x00000000).
+     set:      USB\VID_0E0F&PID_0003&MI_01\7&1FFDA586&0&0001 -> Configured [input.inf:USB\Class_03,HID_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      STORAGE\VOLUME\{EE823261-BE16-11EB-92E4-806E6F6E6963}#0000000007500000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set:      SCSI\DISK&VEN_VMWARE_&PROD_VMWARE_VIRTUAL_S\5&1EC51BF7&0&000000 -> Configured [disk.inf:GenDisk,disk_install.NT] and started (ConfigFlags = 0x00000000).
+!    set:      USB\VID_0E0F&PID_0008\000650268328 -> Configured [bth.inf:USB\Class_E0&SubClass_01&Prot_01,BthUsbGeneric.NT] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&A8 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&A9 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&AA -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&AB -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&AC -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&AD -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&AE -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&AF -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B0 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B1 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B2 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B3 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B4 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B5 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B6 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B7 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B8 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&B9 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&BA -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&BB -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&BC -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&BD -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&BE -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&BF -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C0 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C1 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C2 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C3 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C4 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C5 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C6 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_07A0&SUBSYS_07A015AD&REV_01\3&61AAA01&0&C7 -> Configured [pci.inf:PCI\CC_0604&DT_4,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_8_-_AMD_RYZEN_5_2600_SIX-CORE_PROCESSOR____________\_0 -> Configured [cpu.inf:ACPI\AuthenticAMD_-_AMD64,AmdPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\AUTHENTICAMD_-_AMD64_FAMILY_23_MODEL_8_-_AMD_RYZEN_5_2600_SIX-CORE_PROCESSOR____________\_1 -> Configured [cpu.inf:ACPI\AuthenticAMD_-_AMD64,AmdPPM_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      HDAUDIO\FUNC_01&VEN_15AD&DEV_1975&SUBSYS_15AD1975&REV_1001\5&217BE3D6&0&0001 -> Configured [hdaudio.inf:HDAUDIO\FUNC_01,HdAudModel] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0200\4&1BD7F811&0 -> Configured [machine.inf:*PNP0200,NO_DRV_X] (ConfigFlags = 0x00000000).
+     set:      ROOT\UMBUS\0000 -> Configured [umbus.inf:root\umbus,UmBusRoot_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_0774&SUBSYS_197615AD&REV_00\4&BBF9765&0&0088 -> Configured [usbport.inf:PCI\CC_0C0300,UHCI.Dev.NT] and started (ConfigFlags = 0x00000000).
+     set:      SWD\RADIO\{3DB5895D-CC28-44B3-AD3D-6F01A782B8D2} -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and started (ConfigFlags = 0x00000000).
+!    set:      SWD\MSDAS\{CE958E9A-424F-4C88-86F4-11314821E75A} -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and non-present (ConfigFlags = 0x00000000).
+     set:      ROOT\ACPI_HAL\0000 -> Configured [hal.inf:acpiapic,ACPI_AMD64_HAL] and started (ConfigFlags = 0x00000000).
+!    set:      DISPLAY\DEFAULT_MONITOR\1&8713BCA&0&UID0 -> Configured [monitor.inf:MONITOR\Default_Monitor,NonPnPMonitor.Install] and non-present (ConfigFlags = 0x00000000).
+     set:      STORAGE\VOLUME\{EE823261-BE16-11EB-92E4-806E6F6E6963}#0000000006500000 -> Configured [volume.inf:STORAGE\Volume,volume_install.NT] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_0770&SUBSYS_077015AD&REV_00\4&BBF9765&0&1088 -> Configured [usbport.inf:PCI\CC_0C0320,EHCI.Dev.NT] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_1977&SUBSYS_197715AD&REV_09\4&BBF9765&0&0888 -> Configured [hdaudbus.inf:PCI\CC_0403,HDAudio_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI_HAL\PNP0C08\0 -> Configured [acpi.inf:*PNP0C08,ACPI_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\BASICRENDER\0000 -> Configured [basicrender.inf:ROOT\BasicRender,BasicRender] and started (ConfigFlags = 0x00000000).
+!    set:      BTH\MS_BTHBRB\7&20F38EB4&0&1 -> Configured [bth.inf:BTH\MS_BTHBRB,BthEnum.NT] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD&REV_10\3&61AAA01&0&3F -> Configured [oem2.inf:PCI\VEN_15AD&DEV_0740&SUBSYS_074015AD,vmci.install.x64.NT] and started (ConfigFlags = 0x00000000).
+     set:      SCSI\CDROM&VEN_NECVMWAR&PROD_VMWARE_SATA_CD01\5&2EDF08DD&0&010000 -> Configured [cdrom.inf:GenCdRom,cdrom_install] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\FIXEDBUTTON\2&DABA3FF&0 -> Configured [machine.inf:ACPI\FixedButton,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_7110&SUBSYS_197615AD&REV_08\3&61AAA01&0&38 -> Configured [machine.inf:PCI\VEN_8086&DEV_7110&CC_0601,MSISADRV] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0C02\1F -> Configured [machine.inf:*PNP0C02,NO_DRV_MBRES] (ConfigFlags = 0x00000000).
+!    set:      BTH\MS_RFCOMM\7&20F38EB4&0&0 -> Configured [tdibth.inf:BTH\MS_RFCOMM,RFCOMM.Install] and non-present (ConfigFlags = 0x00000000).
+     set:      HID\VID_0E0F&PID_0003&MI_00\8&1230C469&0&0000 -> Configured [oem6.inf:HID\VID_0E0F&PID_0003&MI_00,VMUsbMouse] and started (ConfigFlags = 0x00000000).
+!    set:      BTH\MS_BTHPAN\7&20F38EB4&0&2 -> Configured [bthpan.inf:BTH\MS_BTHPAN,BthPan.Install] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_0779&SUBSYS_077915AD&REV_00\4&3B50545D&0&00B8 -> Configured [usbxhci.inf:PCI\CC_0C0330,Generic.Install.NT] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\VMWVMCIHOSTDEV\0000 -> Configured [oem2.inf:ROOT\VMWVMCIHOSTDEV,vmci.install.x64.NT] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_7111&SUBSYS_197615AD&REV_01\3&61AAA01&0&39 -> Configured [mshdc.inf:PCI\VEN_8086&DEV_7111,intelide_Inst] and started (ConfigFlags = 0x00000000).
+     set:      SWD\PRINTENUM\{AB147CED-6961-4F8C-AC5E-060BA84DDE35} -> Configured [printqueue.inf:PRINTENUM\LocalPrintQueue,NO_DRV_LOCAL] and started (ConfigFlags = 0x00000000).
+     set:      PCIIDE\IDECHANNEL\4&23686003&0&0 -> Configured [mshdc.inf:Internal_IDE_Channel,atapi_Inst] and started (ConfigFlags = 0x00000000).
+     set:      PCIIDE\IDECHANNEL\4&23686003&0&1 -> Configured [mshdc.inf:Internal_IDE_Channel,atapi_Inst] and started (ConfigFlags = 0x00000000).
+     set:      HID\VID_0E0F&PID_0003&MI_01\8&3608022B&0&0000 -> Configured [msmouse.inf:HID_DEVICE_SYSTEM_MOUSE,HID_Mouse_Inst.NT] and started (ConfigFlags = 0x00000000).
+     set:      USB\ROOT_HUB20\5&36A4B5D6&0 -> Configured [usbport.inf:USB\ROOT_HUB20,ROOTHUB.Dev.NT] and started (ConfigFlags = 0x00000000).
+     set:      SWD\MMDEVAPI\MICROSOFTGSWAVETABLESYNTH -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0800\4&1BD7F811&0 -> Configured [machine.inf:*PNP0800,NO_DRV_X] (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0001\4&1BD7F811&0 -> Configured [machine.inf:*PNP0001,NO_DRV_PIC] (ConfigFlags = 0x00000000).
+     set:      ROOT\NDISVIRTUALBUS\0000 -> Configured [ndisvirtualbus.inf:ROOT\NdisVirtualBus,NdisVirtualBus_Device.NT] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_8086&DEV_7190&SUBSYS_197615AD&REV_01\3&61AAA01&0&00 -> Configured [machine.inf:PCI\VEN_8086&DEV_7190,NO_DRV] and started (ConfigFlags = 0x00000000).
+     set:      USB\ROOT_HUB\5&2891968B&0 -> Configured [usbport.inf:USB\ROOT_HUB,ROOTHUB.Dev.NT] and started (ConfigFlags = 0x00000000).
+!    set:      SWD\RADIO\BLUETOOTH_001A7DDA710A -> Configured [c_swdevice.inf:SWD\GenericRaw,SoftwareDevice] and non-present (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_0405&SUBSYS_040515AD&REV_00\3&61AAA01&0&78 -> Configured [display.inf:PCI\CC_0300,MSBDA] and started (ConfigFlags = 0x00000000).
+     set:      USB\VID_0E0F&PID_0003\6&30C8CA5F&0&5 -> Configured [usb.inf:USB\COMPOSITE,Composite.Dev.NT] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0100\4&1BD7F811&0 -> Configured [machine.inf:*PNP0100,NO_DRV_X] (ConfigFlags = 0x00000000).
+     set:      ROOT\MSSMBIOS\0000 -> Configured [mssmbios.inf:ROOT\mssmbios,MSSMBIOS_DRV] and started (ConfigFlags = 0x00000000).
+     set:      PCI\VEN_15AD&DEV_0790&SUBSYS_079015AD&REV_02\3&61AAA01&0&88 -> Configured [pci.inf:PCI\CC_0604,PCI_BRIDGE] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\SYSTEM\0000 -> Configured [swenum.inf:ROOT\SWENUM,SWENUM] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\VMW0003\4&1BD7F811&0 -> Configured [oem7.inf:*VMW0003,VMMouse] and started (ConfigFlags = 0x00000000).
+     set:      ROOT\RDPBUS\0000 -> Configured [rdpbus.inf:ROOT\RDPBUS,RDPBUS] and started (ConfigFlags = 0x00000000).
+     set:      ACPI\PNP0A05\4&1BD7F811&0 -> Configured [machine.inf:*PNP0A05,NO_DRV_X_PNP] and started (ConfigFlags = 0x00000000).
+     set:      Devices pre-configured: 0
+     set:      Devices pre-installed: 0
+     set:      Devices need install: 0
+     set:      Devices configured: 187 (161 internal, 26 external)
+     set:      Devices installed: 0
+     set:      Devices non-present: 9 (4 internal, 5 external)
+     set: {Device Install - exit(0x00000000)} 21:22:29.587
+     set: Installed devices. Time = 219 ms. 21:22:29.587
+<<<  Section end 2021/05/31 21:22:29.634
+<<<  [Exit status: SUCCESS]
+
